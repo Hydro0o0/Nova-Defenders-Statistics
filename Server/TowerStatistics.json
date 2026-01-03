@@ -1,0 +1,453 @@
+{
+  "Barrage": {
+    "Levels": {
+      "1": {
+        "Price": 300,
+        "Range": 7,
+        "Cooldown": 1.6,
+        "Damage": 4
+      },
+      "0": {
+        "Price": 500,
+        "Range": 7,
+        "Cooldown": 2,
+        "Damage": 4
+      },
+      "3": {
+        "Price": 650,
+        "Range": 8,
+        "Cooldown": 1.4,
+        "Damage": 10
+      },
+      "2": {
+        "Price": 500,
+        "Range": 7.5,
+        "Cooldown": 1.5,
+        "Damage": 6
+      },
+      "5": {
+        "Price": 2250,
+        "Range": 9,
+        "Cooldown": 0.8,
+        "Damage": 25
+      },
+      "4": {
+        "Price": 1900,
+        "Range": 8,
+        "Cooldown": 0.9,
+        "Damage": 22
+      }
+    },
+    "ExtraInfo": {
+      "MaxLevel": 5,
+      "Penetration": [
+        1.1,
+        1.2,
+        1.4,
+        1.4,
+        2
+      ],
+      "Class": [
+        "Cone",
+        "Cone",
+        "Cone",
+        "Cone",
+        "Cone"
+      ],
+      "Hidden": [
+        5
+      ],
+      "SpreadAngle": [
+        26,
+        30,
+        35,
+        35,
+        40
+      ]
+    }
+  },
+  "Pulse": {
+    "Levels": {
+      "1": {
+        "Price": 100,
+        "Range": 15,
+        "Cooldown": 0.8,
+        "Damage": 3
+      },
+      "0": {
+        "Price": 175,
+        "Range": 13,
+        "Cooldown": 0.8,
+        "Damage": 2
+      },
+      "3": {
+        "Price": 800,
+        "Range": 19,
+        "Cooldown": 0.375,
+        "Damage": 6
+      },
+      "2": {
+        "Price": 400,
+        "Range": 19,
+        "Cooldown": 0.75,
+        "Damage": 6
+      },
+      "4": {
+        "Price": 1800,
+        "Range": 21,
+        "Cooldown": 0.155,
+        "Damage": 6
+      }
+    },
+    "ExtraInfo": {
+      "MaxLevel": 4,
+      "Class": [
+        "Single",
+        "Single",
+        "Single",
+        "Single"
+      ],
+      "MaxHits": 2,
+      "Hidden": [
+        3,
+        4
+      ],
+      "MaxPlacement": 14
+    }
+  },
+  "Anomaly": {
+    "Levels": {
+      "1": {
+        "Price": 200,
+        "Range": 3,
+        "Cooldown": 1,
+        "Damage": 8
+      },
+      "0": {
+        "Price": 500,
+        "Range": 3,
+        "Cooldown": 1,
+        "Damage": 5
+      },
+      "3": {
+        "Price": 1850,
+        "Range": 4,
+        "Cooldown": 0.5,
+        "Damage": 17
+      },
+      "2": {
+        "Price": 1000,
+        "Range": 3,
+        "Cooldown": 0.75,
+        "Damage": 11
+      },
+      "4": {
+        "Price": 3000,
+        "Range": 4,
+        "Cooldown": 0.3,
+        "Damage": 30
+      }
+    },
+    "ExtraInfo": {
+      "AOE": [
+        {
+          "Delayed": 0.5,
+          "Studs": 4
+        },
+        {
+          "Delayed": 0.4,
+          "Studs": 6
+        },
+        {
+          "Delayed": 0.3,
+          "Studs": 6
+        },
+        {
+          "Delayed": 0.25,
+          "Studs": 7
+        }
+      ],
+      "Class": [
+        "AOE",
+        "AOE",
+        "AOE",
+        "AOE"
+      ],
+      "Hidden": [
+        0
+      ],
+      "MaxLevel": 4
+    }
+  },
+  "Moonfall": {
+    "Levels": {
+      "1": {
+        "Price": 525,
+        "Range": 5.5,
+        "Cooldown": 1.2,
+        "Damage": 10
+      },
+      "0": {
+        "Price": 400,
+        "Range": 5,
+        "Cooldown": 1.4,
+        "Damage": 8
+      },
+      "3": {
+        "Price": 3500,
+        "Range": 6.5,
+        "Cooldown": 0.9,
+        "Damage": 40
+      },
+      "2": {
+        "Price": 1050,
+        "Range": 6,
+        "Cooldown": 1,
+        "Damage": 20
+      },
+      "4": {
+        "Price": 8000,
+        "Range": 8,
+        "Cooldown": 0.8,
+        "Damage": 55
+      }
+    },
+    "ExtraInfo": {
+      "Class": [
+        "Single",
+        "Single",
+        "Single",
+        "Single"
+      ],
+      "MaxLevel": 4,
+      "Hidden": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "Blitzkrieg": {
+    "Levels": {
+      "1": {
+        "Price": 650,
+        "Range": 8,
+        "Cooldown": 2.7,
+        "Damage": 8
+      },
+      "0": {
+        "Price": 500,
+        "Range": 7,
+        "Cooldown": 3,
+        "Damage": 8
+      },
+      "3": {
+        "Price": 3000,
+        "Range": 13,
+        "Cooldown": 2.3,
+        "Damage": 14
+      },
+      "2": {
+        "Price": 2500,
+        "Range": 9,
+        "Cooldown": 2.3,
+        "Damage": 14
+      },
+      "4": {
+        "Price": 5000,
+        "Range": 20,
+        "Cooldown": 2,
+        "Damage": 34
+      }
+    },
+    "ExtraInfo": {
+      "Class": [
+        "AOE",
+        "AOE",
+        "AOE",
+        "AOE"
+      ],
+      "MaxLevel": 4,
+      "AOE": [
+        {
+          "Delayed": 0.5,
+          "Studs": 4
+        },
+        {
+          "Delayed": 0.4,
+          "Studs": 6
+        },
+        {
+          "Delayed": 0.3,
+          "Studs": 6
+        },
+        {
+          "Delayed": 0.25,
+          "Studs": 7
+        }
+      ]
+    }
+  },
+  "Vesper": {
+    "Levels": {
+      "1": {
+        "Price": 500,
+        "Range": 28,
+        "Cooldown": 3.6,
+        "Damage": 28
+      },
+      "0": {
+        "Price": 375,
+        "Range": 26,
+        "Cooldown": 3.75,
+        "Damage": 15
+      },
+      "3": {
+        "Price": 2000,
+        "Range": 39,
+        "Cooldown": 3.2,
+        "Damage": 90
+      },
+      "2": {
+        "Price": 975,
+        "Range": 33,
+        "Cooldown": 3.45,
+        "Damage": 45
+      },
+      "4": {
+        "Price": 4150,
+        "Range": 41,
+        "Cooldown": 2.8,
+        "Damage": 195
+      }
+    },
+    "ExtraInfo": {
+      "Air": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "MaxLevel": 4,
+      "HighGround": true,
+      "Hidden": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "Class": [
+        "Single",
+        "Single",
+        "Single",
+        "Single"
+      ]
+    }
+  },
+  "Exterminator": {
+    "Levels": {
+      "1": {
+        "Price": 1500,
+        "Range": 16,
+        "Cooldown": 0.48,
+        "Damage": 18
+      },
+      "0": {
+        "Price": 3500,
+        "Range": 15,
+        "Cooldown": 0.48,
+        "Damage": 12
+      },
+      "3": {
+        "Price": 6500,
+        "Range": 18,
+        "Cooldown": 0.358,
+        "Damage": 45
+      },
+      "2": {
+        "Price": 3500,
+        "Range": 16,
+        "Cooldown": 0.48,
+        "Damage": 35
+      },
+      "4": {
+        "Price": 10000,
+        "Range": 22,
+        "Cooldown": 0.22,
+        "Damage": 50
+      }
+    },
+    "ExtraInfo": {
+      "Hidden": [
+        2,
+        3,
+        4
+      ],
+      "Class": [
+        "Single",
+        "Single",
+        "Single",
+        "Single"
+      ],
+      "MaxLevel": 4,
+      "MaxPlacement": 7
+    }
+  },
+  "Skylight": {
+    "Levels": {
+      "1": {
+        "Price": 1350,
+        "Range": 50,
+        "Cooldown": 5,
+        "Damage": 200
+      },
+      "0": {
+        "Price": 5000,
+        "Range": 50,
+        "Cooldown": 6,
+        "Damage": 200
+      },
+      "3": {
+        "Price": 10000,
+        "Range": 75,
+        "Cooldown": 8,
+        "Damage": 1000
+      },
+      "2": {
+        "Price": 4150,
+        "Range": 50,
+        "Cooldown": 4,
+        "Damage": 250
+      },
+      "4": {
+        "Price": 25000,
+        "Range": 75,
+        "Cooldown": 16,
+        "Damage": 4000
+      }
+    },
+    "ExtraInfo": {
+      "Air": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "MaxLevel": 4,
+      "Class": [
+        "Single",
+        "Single",
+        "Single",
+        "Single"
+      ],
+      "HighGround": true,
+      "Hidden": [
+        4
+      ],
+      "MaxPlacement": 8
+    }
+  }
+}
