@@ -13,3 +13,5 @@ Leaks can happen because of this LOL (┬┬﹏┬┬)
 Anywayssss that's it!!
 
 - Hydro ^.^
+
+PS: If you notice that client and server statistics that don't match... don't hesitate to tell Hydro !!!
