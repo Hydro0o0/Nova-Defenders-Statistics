@@ -84,6 +84,7 @@ local module = {
 			Invisible = { 3 },
 		},
 	},
+
 	Barrage = {
 		ExtraInfo = {
 			MaxLevel = 5,
@@ -746,7 +747,7 @@ local module = {
 			Name = "Anomaly",
 		},
 	},
-    
+
 	None = {
 		["ExtraInfo"] = {
 			["MaxLevel"] = 0,
@@ -759,4 +760,6 @@ local module = {
 			["Name"] = "None",
 		},
 	},
-} 
+}
+
+return module
