@@ -1,39 +1,39 @@
 local module = {
 	Pulse = {
 		ExtraInfo = {
-			MaxLevel = 4,
+			MaxLevel = 5,
 			Bullet = {
-				[0] = { "Start" },
 				[1] = { "Start" },
 				[2] = { "Start" },
-				[3] = { "Start", "Start2" },
-				[4] = { "Start3" },
+				[3] = { "Start" },
+				[4] = { "Start", "Start2" },
+				[5] = { "Start3" },
 			},
-			Hidden = { 3, 4 },
+			Hidden = { 4, 5 },
 			Class = {
-				[0] = "Single",
 				[1] = "Single",
 				[2] = "Single",
 				[3] = "Single",
 				[4] = "Single",
+				[5] = "Single",
 			},
 			Effect = "Bullet",
 		},
-		[0] = {
+		[1] = {
 			Cooldown = 0.8,
 			Range = 13,
 			Damage = 2,
 			Price = 175,
 			Name = "Pulse",
 		},
-		[1] = {
+		[2] = {
 			LevelName = "Gloves!!",
 			Cooldown = 0.8,
 			Range = 15,
 			Damage = 3,
 			Price = 100,
 			Name = "Pulse",
-			Invisible = { 0 },
+			Invisible = { 1 },
 			Animation = 1,
 			Exclude = {
 				"Head acc",
@@ -42,14 +42,14 @@ local module = {
 				"Torso acc",
 			},
 		},
-		[2] = {
+		[3] = {
 			LevelName = "Communication",
 			Cooldown = 0.75,
 			Range = 19,
 			Damage = 6,
 			Price = 400,
 			Name = "Pulse",
-			Invisible = { 1 },
+			Invisible = { 2 },
 			Animation = 1,
 			UpgradeUp = {
 				"Handle",
@@ -60,20 +60,20 @@ local module = {
 				"Left Arm acc",
 			},
 		},
-		[3] = {
+		[4] = {
 			LevelName = "Biker Clothes and A New Buddy",
 			Cooldown = 0.375,
 			Range = 19,
 			Damage = 6,
 			Price = 800,
 			Name = "Pulse",
-			Invisible = { 2 },
+			Invisible = { 3 },
 			Animation = 2,
 			Exclude = {
 				"Head acc",
 			},
 		},
-		[4] = {
+		[5] = {
 			LevelName = "Night-Vision Googles and new Kit",
 			Cooldown = 0.155,
 			Range = 21,
@@ -81,34 +81,34 @@ local module = {
 			Price = 1800,
 			Name = "Pulse",
 			Animation = 4,
-			Invisible = { 3 },
+			Invisible = { 4 },
 		},
 	},
 
 	Barrage = {
 		ExtraInfo = {
-			MaxLevel = 5,
+			MaxLevel = 6,
 			Cone = true,
 			Shotgun = {
-				[0] = { "Start" },
 				[1] = { "Start" },
-				[2] = { "Start1" },
-				[3] = { "Start2" },
+				[2] = { "Start" },
+				[3] = { "Start1" },
 				[4] = { "Start2" },
 				[5] = { "Start2" },
+				[6] = { "Start2" },
 			},
-			Hidden = { 5 },
+			Hidden = { 6 },
 			Class = {
-				[0] = "Single",
 				[1] = "Single",
 				[2] = "Single",
 				[3] = "Single",
 				[4] = "Single",
 				[5] = "Single",
+				[6] = "Single",
 			},
 			Effect = "Shotgun",
 		},
-		[0] = {
+		[1] = {
 			Cooldown = 2,
 			Range = 7,
 			Damage = 4,
@@ -125,7 +125,7 @@ local module = {
 			},
 			Name = "Barrage",
 		},
-		[1] = {
+		[2] = {
 			LevelName = "Extra Training",
 			Cooldown = 1.6,
 			Range = 7,
@@ -142,16 +142,16 @@ local module = {
 				Colour = Color3.new(1, 0.666667, 0),
 				Format = "Spread Angle: %d°.",
 			},
-			Invisible = { 0 },
+			Invisible = { 1 },
 		},
-		[2] = {
+		[3] = {
 			LevelName = "New Firepower",
 			Cooldown = 1.5,
 			Range = 7.5,
 			Damage = 6,
 			Price = 500,
 			Name = "Barrage",
-			Invisible = { 1 },
+			Invisible = { 2 },
 			Animation = 2,
 
 			Penetration = {
@@ -165,7 +165,7 @@ local module = {
 				Format = "Spread Angle: %d°.",
 			},
 		},
-		[3] = {
+		[4] = {
 			LevelName = "New Attachments",
 			Cooldown = 1.4,
 			Range = 8,
@@ -185,9 +185,9 @@ local module = {
 				Format = "Spread Angle: %d°.",
 			},
 
-			Invisible = { 2 },
+			Invisible = { 3 },
 		},
-		[4] = {
+		[5] = {
 			LevelName = "Full Training",
 			Cooldown = 0.9,
 			Range = 8,
@@ -195,7 +195,7 @@ local module = {
 			Price = 1900,
 			Name = "Barrage",
 			Animation = 4,
-			Invisible = { 3 },
+			Invisible = { 4 },
 			Exclude = {
 				"Torso acc1 lv4",
 				"Prop lv4",
@@ -213,7 +213,7 @@ local module = {
 				Format = "Spread Angle: %d°.",
 			},
 		},
-		[5] = {
+		[6] = {
 			LevelName = "Heavy Equipment",
 			Cooldown = 0.8,
 			Range = 9,
@@ -221,7 +221,7 @@ local module = {
 			Price = 2250,
 			Animation = 4,
 			Name = "Barrage",
-			Invisible = { 4, 3, 2, 1 },
+			Invisible = { 5, 4, 3, 2, 1 },
 			Exclude = {
 				"Torso acc1 lv4",
 				"Prop lv4",
@@ -242,59 +242,59 @@ local module = {
 
 	Vesper = {
 		ExtraInfo = {
-			MaxLevel = 4,
+			MaxLevel = 5,
 			HighGround = true,
 			Bullet = {
-				[0] = { "Start" },
 				[1] = { "Start" },
-				[2] = { "Start1" },
-				[3] = { "Start2" },
-				[4] = { "Start3" },
+				[2] = { "Start" },
+				[3] = { "Start1" },
+				[4] = { "Start2" },
+				[5] = { "Start3" },
 			},
-			Air = { 0, 1, 2, 3, 4 },
-			Hidden = { 0, 1, 2, 3, 4 },
+			Air = { 1,2,3,4,5 },
+			Hidden = { 1,2,3,4,5 },
 			Class = {
-				[0] = "Single",
 				[1] = "Single",
 				[2] = "Single",
 				[3] = "Single",
 				[4] = "Single",
+				[5] = "Single",
 			},
 			Effect = "Bullet",
 		},
-		[0] = {
+		[1] = {
 			Cooldown = 3.75,
 			Range = 26,
 			Damage = 15,
 			Price = 375,
 			Name = "Vesper",
 		},
-		[1] = {
+		[2] = {
 			LevelName = "Better Grip",
 			Cooldown = 3.6,
 			Range = 28,
 			Damage = 28,
 			Price = 500,
 			Name = "Vesper",
-			Invisible = { 0 },
+			Invisible = { 1 },
 		},
-		[2] = {
+		[3] = {
 			LevelName = "Scope Attachment",
 			Cooldown = 3.45,
 			Range = 33,
 			Damage = 45,
 			Price = 975,
 			Name = "Vesper",
-			Invisible = { 1 },
+			Invisible = { 2 },
 		},
-		[3] = {
+		[4] = {
 			LevelName = "New Weapon kit",
 			Cooldown = 3.2,
 			Range = 39,
 			Damage = 90,
 			Price = 2000,
 			Name = "Vesper",
-			Invisible = { 2 },
+			Invisible = { 3 },
 			Animation = 3,
 			["Armour Penetration"] = {
 				Value = 15,
@@ -302,14 +302,14 @@ local module = {
 				Format = "Armour Penetration: %d%%. (If you can see this, it means Hydro has not added this. Either she forgot to add it or forgot to remove this. Remind her)",
 			},
 		},
-		[4] = {
+		[5] = {
 			LevelName = "New kit",
 			Cooldown = 2.8,
 			Range = 41,
 			Damage = 195,
 			Price = 4150,
 			Name = "Vesper",
-			Invisible = { 3 },
+			Invisible = { 4 },
 			Animation = 4,
 			["Armour Penetration"] = {
 				Value = 15,
@@ -321,18 +321,18 @@ local module = {
 
 	Moonfall = {
 		ExtraInfo = {
-			MaxLevel = 4,
+			MaxLevel = 5,
 			Class = {
-				[0] = "Single",
 				[1] = "Single",
 				[2] = "Single",
 				[3] = "Single",
 				[4] = "Single",
+				[5] = "Single",
 			},
-			Hidden = { 2, 3, 4 },
+			Hidden = { 3, 4, 5 },
 			Effect = "Moonfall",
 		},
-		[0] = {
+		[1] = {
 			Cooldown = 1.4,
 			Range = 5,
 			Damage = 8,
@@ -348,7 +348,7 @@ local module = {
 				Colour = Color3.new(1, 0.666667, 0.498039),
 			},
 		},
-		[1] = {
+		[2] = {
 			LevelName = "Order: Lone Wanderer",
 			Cooldown = 1.2,
 			Range = 5.5,
@@ -358,14 +358,14 @@ local module = {
 			DisplayName = "Aella",
 			RandomAttackAnimation = 4,
 			SpeedUpCorrectly = true,
-			Invisible = {},
+			Invisible = {1},
 			Burn = {
 				Value = 1,
 				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds.",
 				Colour = Color3.new(1, 0.666667, 0.498039),
 			},
 		},
-		[2] = {
+		[3] = {
 			LevelName = "Attuned: First Officer",
 			Cooldown = 1,
 			Range = 6,
@@ -374,14 +374,14 @@ local module = {
 			Name = "Moonfall",
 			DisplayName = "Aella",
 			RandomAttackAnimation = 4,
-			Invisible = {},
+			Invisible = {2},
 			Burn = {
 				Value = 2.5,
 				Colour = Color3.new(1, 0.666667, 0.498039),
 				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds.",
 			},
 		},
-		[3] = {
+		[4] = {
 			LevelName = "Ascendant: Polemarch",
 			Cooldown = 0.9,
 			Range = 6.5,
@@ -391,14 +391,14 @@ local module = {
 			DisplayName = "Aella",
 			RandomAttackAnimation = 4,
 			SpeedUpCorrectly = true,
-			Invisible = {},
+			Invisible = {3},
 			Burn = {
 				Value = 5,
 				Colour = Color3.new(1, 0.666667, 0.498039),
 				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds.",
 			},
 		},
-		[4] = {
+		[5] = {
 			LevelName = "Zenith: Archon",
 			Cooldown = 0.8,
 			Range = 8,
@@ -406,7 +406,7 @@ local module = {
 			Price = 8000,
 			Name = "Moonfall",
 			DisplayName = "Aella",
-			Invisible = { 2 },
+			Invisible = { 4 },
 			Exclude = {
 				"Head Visor",
 				"Head Visor Neon",
@@ -425,97 +425,97 @@ local module = {
 
 	Exterminator = {
 		ExtraInfo = {
-			MaxLevel = 4,
+			MaxLevel = 5,
 			Bullet = {
-				[0] = { "Start" },
 				[1] = { "Start" },
 				[2] = { "Start" },
-				[3] = { "Start1" },
-				[4] = { "Start2" },
+				[3] = { "Start" },
+				[4] = { "Start1" },
+				[5] = { "Start2" },
 			},
-			Hidden = { 2, 3, 4 },
+			Hidden = { 3, 4, 5 },
 			Class = {
-				[0] = "Single",
 				[1] = "Single",
 				[2] = "Single",
 				[3] = "Single",
 				[4] = "Single",
+				[5] = "Single",
 			},
 			Effect = "Bullet",
 		},
 
-		[0] = {
+		[1] = {
 			Cooldown = 0.48,
 			Range = 15,
 			Damage = 12,
 			Price = 3500,
 			Name = "Exterminator",
 		},
-		[1] = {
+		[2] = {
 			LevelName = "Googles!",
 			Cooldown = 0.48,
 			Range = 16,
 			Damage = 18,
 			Price = 1500,
 			Name = "Exterminator",
-			Invisible = { 0 },
+			Invisible = { 1 },
 			Exclude = {
 				"Handle lv0",
 				"Handle2 lv0",
 				"Handle3 lv0",
 			},
 		},
-		[2] = {
+		[3] = {
 			LevelName = "New small kit",
 			Cooldown = 0.48,
 			Range = 16,
 			Damage = 35,
 			Price = 3500,
 			Name = "Exterminator",
-			Invisible = { 1 },
+			Invisible = { 2 },
 		},
-		[3] = {
+		[4] = {
 			LevelName = "Now that's a whole new kit!",
 			Cooldown = 0.358,
 			Range = 18,
 			Damage = 45,
 			Price = 6500,
 			Name = "Exterminator",
-			Invisible = { 2 },
+			Invisible = { 3 },
 			Animation = 3,
 		},
-		[4] = {
+		[5] = {
 			LevelName = "New Military Advancement",
 			Cooldown = 0.22,
 			Range = 22,
 			Damage = 50,
 			Price = 10000,
 			Name = "Exterminator",
-			Invisible = { 3 },
+			Invisible = { 4 },
 			Animation = 4,
 		},
 	},
 
 	Blitzkrieg = {
 		ExtraInfo = {
-			MaxLevel = 4,
+			MaxLevel = 5,
 			Class = {
-				[0] = "Single",
 				[1] = "Single",
 				[2] = "Single",
 				[3] = "Single",
 				[4] = "Single",
+				[5] = "Single",
 			},
 			Explosion = {
-				[0] = { Effect = "NormalExplosion", Speed = 0.5, Grenade = "BlitzGrenade0", Sound = "SmallExplosion", AOE = 3 },
-				[1] = { Effect = "NormalExplosion", Speed = 0.5, Grenade = "BlitzGrenade0", Sound = "SmallExplosion", AOE = 4 },
-				[2] = { Effect = "BigExplosion", Speed = 0.4, Grenade = "BlitzGrenade2", Sound = "Explosion", AOE = 6 },
-				[3] = { Effect = "BigExplosion", Speed = 0.3, Grenade = "BlitzGrenade2", Sound = "Explosion", AOE = 6 },
-				[4] = { Effect = "BigExplosion", Speed = 0.25, Grenade = "BlitzGrenade2", Sound = "BigExplosion", AOE = 7 },
+				[1] = { Effect = "NormalExplosion", Speed = 0.5, Grenade = "BlitzGrenade0", Sound = "SmallExplosion", AOE = 3 },
+				[2] = { Effect = "NormalExplosion", Speed = 0.5, Grenade = "BlitzGrenade0", Sound = "SmallExplosion", AOE = 4 },
+				[3] = { Effect = "BigExplosion", Speed = 0.4, Grenade = "BlitzGrenade2", Sound = "Explosion", AOE = 6 },
+				[4] = { Effect = "BigExplosion", Speed = 0.3, Grenade = "BlitzGrenade2", Sound = "Explosion", AOE = 6 },
+				[5] = { Effect = "BigExplosion", Speed = 0.25, Grenade = "BlitzGrenade2", Sound = "BigExplosion", AOE = 7 },
 			},
 			Effect = "Explosion",
 		},
-		[0] = {
+		[1] = {
 			Cooldown = 3,
 			Range = 7,
 			Damage = 8,
@@ -527,14 +527,14 @@ local module = {
 			},
 			Name = "Blitzkrieg",
 		},
-		[1] = {
+		[2] = {
 			LevelName = "New Gears",
 			Cooldown = 2.7,
 			Range = 8,
 			Damage = 8,
 			Price = 650,
 			Name = "Blitzkrieg",
-			Invisible = { 0 },
+			Invisible = { 1 },
 			Exclude = {
 				"Head acc",
 				"Left Leg acc",
@@ -550,14 +550,14 @@ local module = {
 				Format = "Explosion Radius: %d studs.",
 			},
 		},
-		[2] = {
+		[3] = {
 			LevelName = "Funni green ball go boom boom",
 			Cooldown = 2.3,
 			Range = 9,
 			Damage = 14,
 			Price = 2500,
 			Name = "Blitzkrieg",
-			Invisible = { 0 },
+			Invisible = { 2 },
 			Exclude = {
 				"Head acc",
 				"Left Leg acc",
@@ -571,7 +571,7 @@ local module = {
 				Format = "Explosion Radius: %d studs.",
 			},
 		},
-		[3] = {
+		[4] = {
 			LevelName = "New Power Set",
 			Cooldown = 2.3,
 			Range = 13,
@@ -583,12 +583,12 @@ local module = {
 				Format = "Explosion Radius: %d studs.",
 			},
 			Name = "Blitzkrieg",
-			Invisible = { 1, 2 },
+			Invisible = { 1, 2, 3 },
 			Exclude = {
 				"Weapon",
 			},
 		},
-		[4] = {
+		[5] = {
 			LevelName = "Oh this can shoot pretty far",
 			Cooldown = 2,
 			Range = 20,
@@ -601,7 +601,7 @@ local module = {
 			},
 			Animation = 4,
 			Name = "Blitzkrieg",
-			Invisible = { 3, 2, 1, 0 },
+			Invisible = { 4, 3, 2, 1, 0 },
 			Exclude = {
 				"Left Arm acc",
 				"Left Leg acc",
@@ -613,34 +613,34 @@ local module = {
 
 	Skylight = {
 		ExtraInfo = {
-			MaxLevel = 4,
+			MaxLevel = 5,
 			HighGround = true,
 			SkylightBeam = {
-				[0] = { "Start" },
 				[1] = { "Start" },
-				[2] = { "Start1" },
-				[3] = { "Start2" },
-				[4] = { "Start3" },
+				[2] = { "Start" },
+				[3] = { "Start1" },
+				[4] = { "Start2" },
+				[5] = { "Start3" },
 			},
-			Air = { 0, 1, 2, 3, 4 },
-			Hidden = { 4 },
+			Air = { 1, 2, 3, 4 , 5},
+			Hidden = { 5 },
 			Class = {
-				[0] = "Single",
 				[1] = "Single",
 				[2] = "Single",
 				[3] = "Single",
 				[4] = "Single",
+				[5] = "Single",
 			},
 			Effect = "SkylightBeam",
 		},
-		[0] = {
+		[1] = {
 			Cooldown = 6,
 			Range = 50,
 			Damage = 200,
 			Price = 5000,
 			Name = "Skylight",
 		},
-		[1] = {
+		[2] = {
 			LevelName = "Nil",
 			Cooldown = 5,
 			Range = 50,
@@ -649,7 +649,7 @@ local module = {
 			Name = "Skylight",
 			Invisible = { 0 },
 		},
-		[2] = {
+		[3] = {
 			LevelName = "Nil",
 			Cooldown = 4,
 			Range = 50,
@@ -658,7 +658,7 @@ local module = {
 			Name = "Skylight",
 			Invisible = { 1 },
 		},
-		[3] = {
+		[4] = {
 			LevelName = "Nil",
 			Cooldown = 8,
 			Range = 75,
@@ -668,7 +668,7 @@ local module = {
 			Invisible = { 2 },
 			Animation = 3,
 		},
-		[4] = {
+		[5] = {
 			LevelName = "Nil",
 			Cooldown = 16,
 			Range = 75,
@@ -682,31 +682,31 @@ local module = {
 
 	Anomaly = {
 		ExtraInfo = {
-			MaxLevel = 4,
+			MaxLevel = 5,
 			Class = {
-				[0] = "Single",
 				[1] = "Single",
 				[2] = "Single",
 				[3] = "Single",
 				[4] = "Single",
+				[5] = "Single",
 			},
 			Explosion = {
-				[0] = { Effect = "NormalExplosion", Speed = 0.5, Grenade = "BlitzGrenade0", Sound = "SmallExplosion", AOE = 3 },
-				[1] = { Effect = "NormalExplosion", Speed = 0.5, Grenade = "BlitzGrenade0", Sound = "SmallExplosion", AOE = 4 },
-				[2] = { Effect = "BigExplosion", Speed = 0.4, Grenade = "BlitzGrenade2", Sound = "Explosion", AOE = 6 },
-				[3] = { Effect = "BigExplosion", Speed = 0.3, Grenade = "BlitzGrenade2", Sound = "Explosion", AOE = 6 },
-				[4] = { Effect = "BigExplosion", Speed = 0.25, Grenade = "BlitzGrenade2", Sound = "BigExplosion", AOE = 7 },
+				[1] = { Effect = "NormalExplosion", Speed = 0.5, Grenade = "BlitzGrenade0", Sound = "SmallExplosion", AOE = 3 },
+				[2] = { Effect = "NormalExplosion", Speed = 0.5, Grenade = "BlitzGrenade0", Sound = "SmallExplosion", AOE = 4 },
+				[3] = { Effect = "BigExplosion", Speed = 0.4, Grenade = "BlitzGrenade2", Sound = "Explosion", AOE = 6 },
+				[4] = { Effect = "BigExplosion", Speed = 0.3, Grenade = "BlitzGrenade2", Sound = "Explosion", AOE = 6 },
+				[5] = { Effect = "BigExplosion", Speed = 0.25, Grenade = "BlitzGrenade2", Sound = "BigExplosion", AOE = 7 },
 			},
 			Effect = "Explosion",
 		},
-		[0] = {
+		[1] = {
 			Cooldown = 1,
 			Range = 3,
 			Damage = 5,
 			Price = 500,
 			Name = "Anomaly",
 		},
-		[1] = {
+		[2] = {
 			LevelName = "(?)",
 			Cooldown = 1,
 			Range = 3,
@@ -716,7 +716,7 @@ local module = {
 			Exlude = {},
 			Name = "Anomaly",
 		},
-		[2] = {
+		[3] = {
 			LevelName = "(?)",
 			Cooldown = 0.75,
 			Range = 3,
@@ -726,7 +726,7 @@ local module = {
 			Exlude = {},
 			Name = "Anomaly",
 		},
-		[3] = {
+		[4] = {
 			LevelName = "(?)",
 			Cooldown = 0.5,
 			Range = 4,
@@ -736,7 +736,7 @@ local module = {
 			Exlude = {},
 			Name = "Anomaly",
 		},
-		[4] = {
+		[5] = {
 			LevelName = "(?)",
 			Cooldown = 0.3,
 			Range = 4,
@@ -750,9 +750,9 @@ local module = {
 
 	None = {
 		["ExtraInfo"] = {
-			["MaxLevel"] = 0,
+			["MaxLevel"] = 1,
 		},
-		[0] = {
+		[1] = {
 			["Cooldown"] = 0,
 			["Range"] = 0,
 			["Damage"] = 0,
