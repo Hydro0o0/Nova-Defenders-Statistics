@@ -358,7 +358,7 @@ local module = {
 			DisplayName = "Aella",
 			RandomAttackAnimation = 4,
 			SpeedUpCorrectly = true,
-			Invisible = {1},
+			Invisible = {},
 			Burn = {
 				Value = 1,
 				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds.",
@@ -374,7 +374,7 @@ local module = {
 			Name = "Moonfall",
 			DisplayName = "Aella",
 			RandomAttackAnimation = 4,
-			Invisible = {2},
+			Invisible = {},
 			Burn = {
 				Value = 2.5,
 				Colour = Color3.new(1, 0.666667, 0.498039),
@@ -406,7 +406,7 @@ local module = {
 			Price = 8000,
 			Name = "Moonfall",
 			DisplayName = "Aella",
-			Invisible = { 4 },
+			Invisible = { },
 			Exclude = {
 				"Head Visor",
 				"Head Visor Neon",
@@ -601,7 +601,7 @@ local module = {
 			},
 			Animation = 4,
 			Name = "Blitzkrieg",
-			Invisible = { 4, 3, 2, 1, 0 },
+			Invisible = { 4, 3, 2, 1},
 			Exclude = {
 				"Left Arm acc",
 				"Left Leg acc",
