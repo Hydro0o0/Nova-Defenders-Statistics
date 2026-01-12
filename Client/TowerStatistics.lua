@@ -69,6 +69,8 @@ local module = {
 			Name = "Pulse",
 			Invisible = { 3 },
 			Animation = 2,
+			OrderedAnimations = 2, -- Max Value of animation to cycle
+			SpeedUpCorrectly = true,
 			Exclude = {
 				"Head acc",
 			},
@@ -82,6 +84,11 @@ local module = {
 			Name = "Pulse",
 			Animation = 4,
 			Invisible = { 4 },
+			RemoveInTable = {
+				"OrderedAnimations",
+				"OrderedAnimationsCurrentCycle",
+				"SpeedUpCorrectly",
+			}
 		},
 	},
 
@@ -391,7 +398,7 @@ local module = {
 			DisplayName = "Aella",
 			RandomAttackAnimation = 4,
 			SpeedUpCorrectly = true,
-			Invisible = {},
+			Invisible = {3},
 			Burn = {
 				Value = 5,
 				Colour = Color3.new(1, 0.666667, 0.498039),
@@ -406,7 +413,7 @@ local module = {
 			Price = 8000,
 			Name = "Moonfall",
 			DisplayName = "Aella",
-			Invisible = { 3 },
+			Invisible = { },
 			Exclude = {
 				"Head Visor",
 				"Head Visor Neon",
