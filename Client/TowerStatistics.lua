@@ -70,7 +70,6 @@ local module = {
 			Invisible = { 3 },
 			Animation = 2,
 			OrderedAnimations = 2, -- Max Value of animation to cycle
-			SpeedUpCorrectly = true,
 			Exclude = {
 				"Head acc",
 			},
