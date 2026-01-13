@@ -123,11 +123,13 @@ local module = {
 				Value = 25,
 				Colour = Color3.new(1, 1, 1),
 				Format = "Penetration: %d%% of tower range.",
+				MustShow = true,
 			},
 			["Spread Angle"] = {
 				Value = 26,
 				Colour = Color3.new(1, 0.666667, 0),
 				Format = "Spread Angle: %d°.",
+				MustShow = true,
 			},
 			["Drop Off Damage"] = {
 				Value = 15,
