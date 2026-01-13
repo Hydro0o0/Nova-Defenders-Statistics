@@ -48,11 +48,11 @@ local module = {
 		ExtraInfo = {
 			MaxLevel = 6,
 			Penetration = {
-				[1] = 1.1,
-				[2] = 1.1,
-				[3] = 1.2,
-				[4] = 1.4,
-				[5] = 1.4,
+				[1] = 1.25,
+				[2] = 1.25,
+				[3] = 1.35,
+				[4] = 1.45,
+				[5] = 1.5,
 				[6] = 2,
 			},
 			SpreadAngle = {
@@ -62,6 +62,39 @@ local module = {
 				[4] = 35,
 				[5] = 35,
 				[6] = 40,
+			},
+			DropOffDamage = {
+				[1] = {
+					Percent = 0.15,
+					PerDistance = 0.5,
+					--Distance = 3,
+				},
+				[2] = {
+					Percent = 0.15,
+					PerDistance = 0.5,
+					--Distance = 3,
+				},
+				[3] = {
+					Percent = 0.125,
+					PerDistance = 0.5,
+					--Distance = 3,
+				},
+				[4] = {
+					Percent = 0.10,
+					PerDistance = 0.5,
+					--Distance = 3,
+				},
+				[5] = {
+					Percent = 0.10,
+					PerDistance = 0.5,
+					--Distance = 4,
+				},
+				[6] = {
+					Percent = 0.075,
+					PerDistance = 0.5,
+					--Distance = 4,
+				},
+				--Distance = 3,
 			},
 			Hidden = {6},
 			Class = {
@@ -75,37 +108,37 @@ local module = {
 		},
 		[1] = {
 			Cooldown = 2,
-			Range = 7,
+			Range = 5,
 			Damage = 4,
 			Price = 500,
 		},
 		[2] = {
 			Cooldown = 1.6,
-			Range = 7,
+			Range = 5,
 			Damage = 4,
 			Price = 300,
 		},
 		[3] = {
 			Cooldown = 1.5,
-			Range = 7.5,
+			Range = 6,
 			Damage = 6,
 			Price = 500,
 		},
 		[4] = {
 			Cooldown = 1.4,
-			Range = 8,
+			Range = 6,
 			Damage = 10,
 			Price = 650,
 		},
 		[5] = {
 			Cooldown = 0.9,
-			Range = 8,
+			Range = 6.5,
 			Damage = 22,
 			Price = 1900,
 		},
 		[6] = {
 			Cooldown = 0.8,
-			Range = 9,
+			Range = 7,
 			Damage = 25,
 			Price = 2250,
 		},
