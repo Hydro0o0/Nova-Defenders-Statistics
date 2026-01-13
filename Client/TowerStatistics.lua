@@ -435,7 +435,7 @@ local module = {
 			DisplayName = "Aella",
 			RandomAttackAnimation = 4,
 			SpeedUpCorrectly = true,
-			Invisible = {3},
+			Invisible = {},
 			Burn = {
 				Value = 5,
 				Colour = Color3.new(1, 0.666667, 0.498039),
@@ -450,7 +450,7 @@ local module = {
 			Price = 8000,
 			Name = "Moonfall",
 			DisplayName = "Aella",
-			Invisible = { },
+			Invisible = { 3 },
 			Exclude = {
 				"Head Visor",
 				"Head Visor Neon",
