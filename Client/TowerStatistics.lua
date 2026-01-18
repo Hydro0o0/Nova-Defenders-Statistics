@@ -709,7 +709,7 @@ local module = {
 			Damage = 1000,
 			Price = 10000,
 			Name = "Skylight",
-			Invisible = { },
+			Invisible = { 1 },
 			Animation = 3,
 		},
 		[5] = {
@@ -719,7 +719,11 @@ local module = {
 			Damage = 4000,
 			Price = 25000,
 			Name = "Skylight",
-			Invisible = { },
+			Invisible = { 4 },
+			Exlude = {
+				"Torso 3",
+				"Torso Neon 3",
+			},
 			Animation = 4,
 		},
 	},
