@@ -720,7 +720,7 @@ local module = {
 			Price = 25000,
 			Name = "Skylight",
 			Invisible = { 4 },
-			Exlude = {
+			Exclude = {
 				"Torso 3",
 				"Torso Neon 3",
 			},
