@@ -691,7 +691,7 @@ local module = {
 			Damage = 200,
 			Price = 1350,
 			Name = "Skylight",
-			Invisible = { 0 },
+			Invisible = { },
 		},
 		[3] = {
 			LevelName = "Nil",
@@ -700,7 +700,7 @@ local module = {
 			Damage = 250,
 			Price = 4150,
 			Name = "Skylight",
-			Invisible = { 1 },
+			Invisible = { },
 		},
 		[4] = {
 			LevelName = "Nil",
@@ -709,7 +709,7 @@ local module = {
 			Damage = 1000,
 			Price = 10000,
 			Name = "Skylight",
-			Invisible = { 2 },
+			Invisible = { },
 			Animation = 3,
 		},
 		[5] = {
@@ -719,7 +719,7 @@ local module = {
 			Damage = 4000,
 			Price = 25000,
 			Name = "Skylight",
-			Invisible = { 3 },
+			Invisible = { },
 			Animation = 4,
 		},
 	},
