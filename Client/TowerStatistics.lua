@@ -683,6 +683,13 @@ local module = {
 			Damage = 200,
 			Price = 5000,
 			Name = "Skylight",
+
+			["Kinetic Accretion"] = {
+				Value = 0.1,
+				Colour = Color3.new(0.317647, 0.945098, 1),
+				Format = "Kinetic Accretion: +%d%% per stud Damage builds up based on how far the tower is to the enemy.",
+				MustShow = true,
+			},
 		},
 		[2] = {
 			LevelName = "Nil",
@@ -692,6 +699,13 @@ local module = {
 			Price = 1350,
 			Name = "Skylight",
 			Invisible = { },
+
+			["Kinetic Accretion"] = {
+				Value = 0.1,
+				Colour = Color3.new(0.317647, 0.945098, 1),
+				Format = "Kinetic Accretion: +%d%%% per stud Damage builds up based on how far the tower is to the enemy.",
+				MustShow = true,
+			},
 		},
 		[3] = {
 			LevelName = "Nil",
@@ -701,6 +715,13 @@ local module = {
 			Price = 4150,
 			Name = "Skylight",
 			Invisible = { },
+
+			["Kinetic Accretion"] = {
+				Value = 0.1,
+				Colour = Color3.new(0.317647, 0.945098, 1),
+				Format = "Kinetic Accretion: +%d%% per stud Damage builds up based on how far the tower is to the enemy.",
+				MustShow = true,
+			},
 		},
 		[4] = {
 			LevelName = "Nil",
@@ -711,6 +732,32 @@ local module = {
 			Name = "Skylight",
 			Invisible = { 1 },
 			Animation = 3,
+
+			["Kinetic Accretion"] = {
+				Value = 0.25,
+				Colour = Color3.new(0.317647, 0.945098, 1),
+				Format = "Kinetic Accretion: +%d%% per stud Damage builds up based on how far the tower is to the enemy.",
+				MustShow = true,
+			},
+
+			["Progressive Ionisation"] = {
+				Value = 0.15,
+				Colour = Color3.new(0.388235, 0.003921, 0.415686),
+				Format = "Progressive Ionisation: Enemy takes more damage from Skylight's beam every times it gets hit by Skylight. (Each stack adds +%d%%) (Max: 50 Stacks for damage).",
+				MustShow = true,
+			},
+
+			["Layered Rupture"] = {
+				Value = 10,
+				Colour = Color3.new(0.780392, 0.490196, 1),
+				Format = "Layered Rupture: Each %d ionisation stack melts enemy's shield by 1%. (Max: 20%)",
+			},
+
+			["Critical Ion Density"] = {
+				Value = 300,
+				Colour = Color3.new(0.235294, 0, 0.235294),
+				Format = "Once the enemy has been defeated and has been charged due to progressive ionisation, it will outburst energy dealing %d with a base range of 2 studs. (+0.2% range and 1% damage per ionisation stack)",
+			},
 		},
 		[5] = {
 			LevelName = "Nil",
@@ -725,6 +772,20 @@ local module = {
 				"Torso Neon 3",
 			},
 			Animation = 4,
+
+			["Kinetic Accretion"] = {
+				Value = 0.5,
+				Colour = Color3.new(0.317647, 0.945098, 1),
+				Format = "Kinetic Accretion: +%d%%% per stud Damage builds up based on how far the tower is to the enemy.",
+				MustShow = true,
+			},
+
+			["Progressive Ionisation"] = {
+				Value = 0.15,
+				Colour = Color3.new(0.388235, 0.003921, 0.415686),
+				Format = "Progressive Ionisation: Enemy takes more damage from Skylight's beam every times it gets hit by Skylight. (Each stack adds +%d%%) (Max: 50 Stacks for damage).",
+				MustShow = true,
+			},
 		},
 	},
 
