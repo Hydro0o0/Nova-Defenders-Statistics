@@ -687,7 +687,7 @@ local module = {
 			["Kinetic Accretion"] = {
 				Value = 0.1,
 				Colour = Color3.new(0.317647, 0.945098, 1),
-				Format = "Kinetic Accretion: +%d%% per stud Damage builds up based on how far the tower is to the enemy.",
+				Format = "Kinetic Accretion: +%d%% per stud.",
 				MustShow = true,
 			},
 		},
@@ -703,7 +703,7 @@ local module = {
 			["Kinetic Accretion"] = {
 				Value = 0.1,
 				Colour = Color3.new(0.317647, 0.945098, 1),
-				Format = "Kinetic Accretion: +%d%%% per stud Damage builds up based on how far the tower is to the enemy.",
+				Format = "Kinetic Accretion: +%d%% per stud.",
 				MustShow = true,
 			},
 		},
@@ -719,7 +719,7 @@ local module = {
 			["Kinetic Accretion"] = {
 				Value = 0.1,
 				Colour = Color3.new(0.317647, 0.945098, 1),
-				Format = "Kinetic Accretion: +%d%% per stud Damage builds up based on how far the tower is to the enemy.",
+				Format = "Kinetic Accretion: +%d%% per stud.",
 				MustShow = true,
 			},
 		},
@@ -736,7 +736,7 @@ local module = {
 			["Kinetic Accretion"] = {
 				Value = 0.25,
 				Colour = Color3.new(0.317647, 0.945098, 1),
-				Format = "Kinetic Accretion: +%d%% per stud Damage builds up based on how far the tower is to the enemy.",
+				Format = "Kinetic Accretion: +%d%% per stud.",
 				MustShow = true,
 			},
 
@@ -776,7 +776,7 @@ local module = {
 			["Kinetic Accretion"] = {
 				Value = 0.5,
 				Colour = Color3.new(0.317647, 0.945098, 1),
-				Format = "Kinetic Accretion: +%d%%% per stud Damage builds up based on how far the tower is to the enemy.",
+				Format = "Kinetic Accretion: +%d%% per stud.",
 				MustShow = true,
 			},
 
