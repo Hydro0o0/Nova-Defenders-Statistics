@@ -743,7 +743,7 @@ local module = {
 			["Progressive Ionisation"] = {
 				Value = 0.15,
 				Colour = Color3.new(0.388235, 0.003921, 0.415686),
-				Format = "Progressive Ionisation: Enemy takes more damage from Skylight's beam every time it gets hit by Skylight. (Each stack adds %.2f%%) (Max: 50 stacks).",
+				Format = "Progressive Ionisation: Enemy takes more damage from Skylight's beam every time it gets hit by Skylight. (Each stack adds %.2f%%) (Max: 50 stacks for damage).",
 				MustShow = true,
 			},
 
@@ -756,7 +756,7 @@ local module = {
 			["Critical Ion Density"] = {
 				Value = 300,
 				Colour = Color3.new(0.235294, 0, 0.235294),
-				Format = "Once the enemy has been defeated and has been charged due to progressive ionisation, it will outburst energy dealing %d with a base range of 2 studs. (+0.2%% range and 1%% damage per ionisation stack)"
+				Format = "Critical Ion Density: Once the enemy has been defeated and has been charged due to progressive ionisation, it will outburst energy dealing %d with a base range of 2 studs. (+0.2%% range and 1%% damage per ionisation stack)"
 			},
 		},
 		[5] = {
@@ -783,7 +783,7 @@ local module = {
 			["Progressive Ionisation"] = {
 				Value = 0.30,
 				Colour = Color3.new(0.388235, 0.003921, 0.415686),
-				Format = "Progressive Ionisation: Enemy takes more damage from Skylight's beam every time it gets hit by Skylight. (Each stack adds +%.2f%%) (Max: 50 stacks).",
+				Format = "Progressive Ionisation: Enemy takes more damage from Skylight's beam every time it gets hit by Skylight. (Each stack adds %.2f%%) (Max: 50 stacks for damage).",
 				MustShow = true,
 			},
 		},
