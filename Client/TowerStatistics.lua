@@ -687,7 +687,7 @@ local module = {
 			["Kinetic Accretion"] = {
 				Value = 0.1,
 				Colour = Color3.new(0.317647, 0.945098, 1),
-				Format = "Kinetic Accretion: +%d%% per stud.",
+				Format = "Kinetic Accretion: +%.1f%% per stud.",
 				MustShow = true,
 			},
 		},
@@ -703,7 +703,7 @@ local module = {
 			["Kinetic Accretion"] = {
 				Value = 0.1,
 				Colour = Color3.new(0.317647, 0.945098, 1),
-				Format = "Kinetic Accretion: +%d%% per stud.",
+				Format = "Kinetic Accretion: +%.1f%% per stud.",
 				MustShow = true,
 			},
 		},
@@ -719,7 +719,7 @@ local module = {
 			["Kinetic Accretion"] = {
 				Value = 0.1,
 				Colour = Color3.new(0.317647, 0.945098, 1),
-				Format = "Kinetic Accretion: +%d%% per stud.",
+				Format = "Kinetic Accretion: +%.1f%% per stud.",
 				MustShow = true,
 			},
 		},
@@ -736,14 +736,14 @@ local module = {
 			["Kinetic Accretion"] = {
 				Value = 0.25,
 				Colour = Color3.new(0.317647, 0.945098, 1),
-				Format = "Kinetic Accretion: +%d%% per stud.",
+				Format = "Kinetic Accretion: +%.1f%% per stud.",
 				MustShow = true,
 			},
 
 			["Progressive Ionisation"] = {
 				Value = 0.15,
 				Colour = Color3.new(0.388235, 0.003921, 0.415686),
-				Format = "Progressive Ionisation: Enemy takes more damage from Skylight's beam every times it gets hit by Skylight. (Each stack adds +%d%%) (Max: 50 Stacks for damage).",
+				Format = "Progressive Ionisation: Enemy takes more damage from Skylight's beam every time it gets hit by Skylight. (Each stack adds +%.2f%%) (Max: 50 stacks).",
 				MustShow = true,
 			},
 
@@ -781,9 +781,9 @@ local module = {
 			},
 
 			["Progressive Ionisation"] = {
-				Value = 0.15,
+				Value = 0.30,
 				Colour = Color3.new(0.388235, 0.003921, 0.415686),
-				Format = "Progressive Ionisation: Enemy takes more damage from Skylight's beam every times it gets hit by Skylight. (Each stack adds +%d%%) (Max: 50 Stacks for damage).",
+				Format = "Progressive Ionisation: Enemy takes more damage from Skylight's beam every time it gets hit by Skylight. (Each stack adds +%.2f%%) (Max: 50 stacks).",
 				MustShow = true,
 			},
 		},
