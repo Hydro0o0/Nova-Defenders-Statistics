@@ -667,7 +667,7 @@ local module = {
 				[5] = { "Start3" },
 			},
 			Air = { 1, 2, 3, 4 , 5},
-			Hidden = { 5 },
+			Hidden = { 4, 5 },
 			Class = {
 				[1] = "Single",
 				[2] = "Single",
@@ -776,7 +776,7 @@ local module = {
 			["Kinetic Accretion"] = {
 				Value = 0.5,
 				Colour = Color3.new(0.317647, 0.945098, 1),
-				Format = "Kinetic Accretion: +%d%% per stud.",
+				Format = "Kinetic Accretion: +%.1f%% per stud.",
 				MustShow = true,
 			},
 
