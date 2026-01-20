@@ -692,7 +692,7 @@ local module = {
 			},
 		},
 		[2] = {
-			LevelName = "Nil",
+			LevelName = "Better suited dealing with Atherion-83",
 			Cooldown = 5,
 			Range = 50,
 			Damage = 200,
@@ -708,7 +708,7 @@ local module = {
 			},
 		},
 		[3] = {
-			LevelName = "Nil",
+			LevelName = "Homemade Googles and Atherion Flux Discharge !!",
 			Cooldown = 4,
 			Range = 50,
 			Damage = 250,
@@ -724,7 +724,7 @@ local module = {
 			},
 		},
 		[4] = {
-			LevelName = "Nil",
+			LevelName = "Aetherion Unified Discharge System",
 			Cooldown = 8,
 			Range = 75,
 			Damage = 1000,
@@ -760,7 +760,7 @@ local module = {
 			},
 		},
 		[5] = {
-			LevelName = "Nil",
+			LevelName = "Skylight: The Convergence",
 			Cooldown = 16,
 			Range = 75,
 			Damage = 4000,
