@@ -411,6 +411,11 @@ local module = {
 				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
 				Colour = Color3.new(1, 0.666667, 0.498039),
 			},
+			["Spread Angle"] = {
+				Value = 25,
+				Colour = Color3.new(0.227450, 0.560784, 1),
+				Format = "Spread Angle: %d°.",
+			},
 		},
 		[2] = {
 			LevelName = "Order: Lone Wanderer",
@@ -428,6 +433,11 @@ local module = {
 				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
 				Colour = Color3.new(1, 0.666667, 0.498039),
 			},
+			["Spread Angle"] = {
+				Value = 25,
+				Colour = Color3.new(0.227450, 0.560784, 1),
+				Format = "Spread Angle: %d°.",
+			},
 		},
 		[3] = {
 			LevelName = "Attuned: First Officer",
@@ -443,6 +453,11 @@ local module = {
 				Value = 2.5,
 				Colour = Color3.new(1, 0.666667, 0.498039),
 				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
+			},
+			["Spread Angle"] = {
+				Value = 30,
+				Colour = Color3.new(0.227450, 0.560784, 1),
+				Format = "Spread Angle: %d°.",
 			},
 		},
 		[4] = {
@@ -460,6 +475,11 @@ local module = {
 				Value = 5,
 				Colour = Color3.new(1, 0.666667, 0.498039),
 				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
+			},
+			["Spread Angle"] = {
+				Value = 30,
+				Colour = Color3.new(0.227450, 0.560784, 1),
+				Format = "Spread Angle: %d°.",
 			},
 		},
 		[5] = {
@@ -483,6 +503,11 @@ local module = {
 				Value = 10,
 				Colour = Color3.new(1, 0.666667, 0.498039),
 				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
+			},
+			["Spread Angle"] = {
+				Value = 45,
+				Colour = Color3.new(0.227450, 0.560784, 1),
+				Format = "Spread Angle: %d°.",
 			},
 		},
 	},
