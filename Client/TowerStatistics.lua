@@ -408,7 +408,7 @@ local module = {
 			Invisible = {},
 			Burn = {
 				Value = 1,
-				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
+				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50%% Shield Penetration)",
 				Colour = Color3.new(1, 0.666667, 0.498039),
 			},
 			["Spread Angle"] = {
@@ -430,7 +430,7 @@ local module = {
 			Invisible = {},
 			Burn = {
 				Value = 1,
-				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
+				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50%% Shield Penetration)",
 				Colour = Color3.new(1, 0.666667, 0.498039),
 			},
 			["Spread Angle"] = {
@@ -452,7 +452,7 @@ local module = {
 			Burn = {
 				Value = 2.5,
 				Colour = Color3.new(1, 0.666667, 0.498039),
-				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
+				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50%% Shield Penetration)",
 			},
 			["Spread Angle"] = {
 				Value = 30,
@@ -474,7 +474,7 @@ local module = {
 			Burn = {
 				Value = 5,
 				Colour = Color3.new(1, 0.666667, 0.498039),
-				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
+				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50%% Shield Penetration)",
 			},
 			["Spread Angle"] = {
 				Value = 30,
@@ -502,7 +502,7 @@ local module = {
 			Burn = {
 				Value = 10,
 				Colour = Color3.new(1, 0.666667, 0.498039),
-				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
+				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50%% Shield Penetration)",
 			},
 			["Spread Angle"] = {
 				Value = 45,
