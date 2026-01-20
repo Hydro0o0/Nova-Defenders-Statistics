@@ -312,6 +312,12 @@ local module = {
 			Damage = 15,
 			Price = 375,
 			Name = "Vesper",
+			["Armour Penetration"] = {
+				Value = 15,
+				Colour = Color3.new(1, 0, 0),
+				Format = "Shield Penetration: %d%%.",
+				MustShow = true,
+			},
 		},
 		[2] = {
 			LevelName = "Better Grip",
@@ -321,6 +327,12 @@ local module = {
 			Price = 500,
 			Name = "Vesper",
 			Invisible = { 1 },
+			["Armour Penetration"] = {
+				Value = 15,
+				Colour = Color3.new(1, 0, 0),
+				Format = "Shield Penetration: %d%%.",
+				MustShow = true,
+			},
 		},
 		[3] = {
 			LevelName = "Scope Attachment",
@@ -330,6 +342,12 @@ local module = {
 			Price = 975,
 			Name = "Vesper",
 			Invisible = { 2 },
+			["Armour Penetration"] = {
+				Value = 15,
+				Colour = Color3.new(1, 0, 0),
+				Format = "Shield Penetration: %d%%.",
+				MustShow = true,
+			},
 		},
 		[4] = {
 			LevelName = "New Weapon kit",
@@ -343,7 +361,8 @@ local module = {
 			["Armour Penetration"] = {
 				Value = 15,
 				Colour = Color3.new(1, 0, 0),
-				Format = "Armour Penetration: %d%%. (If you can see this, it means Hydro has not added this. Either she forgot to add it or forgot to remove this. Remind her)",
+				Format = "Shield Penetration: %d%%.",
+				MustShow = true,
 			},
 		},
 		[5] = {
@@ -358,7 +377,8 @@ local module = {
 			["Armour Penetration"] = {
 				Value = 15,
 				Colour = Color3.new(1, 0, 0),
-				Format = "Armour Penetration: %d%%. (If you can see this, it means Hydro has not added this. Either she forgot to add it or forgot to remove this. Remind her)",
+				Format = "Shield Penetration: %d%%.",
+				MustShow = true,
 			},
 		},
 	},
@@ -388,7 +408,7 @@ local module = {
 			Invisible = {},
 			Burn = {
 				Value = 1,
-				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds.",
+				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
 				Colour = Color3.new(1, 0.666667, 0.498039),
 			},
 		},
@@ -405,7 +425,7 @@ local module = {
 			Invisible = {},
 			Burn = {
 				Value = 1,
-				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds.",
+				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
 				Colour = Color3.new(1, 0.666667, 0.498039),
 			},
 		},
@@ -422,7 +442,7 @@ local module = {
 			Burn = {
 				Value = 2.5,
 				Colour = Color3.new(1, 0.666667, 0.498039),
-				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds.",
+				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
 			},
 		},
 		[4] = {
@@ -439,7 +459,7 @@ local module = {
 			Burn = {
 				Value = 5,
 				Colour = Color3.new(1, 0.666667, 0.498039),
-				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds.",
+				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
 			},
 		},
 		[5] = {
@@ -462,7 +482,7 @@ local module = {
 			Burn = {
 				Value = 10,
 				Colour = Color3.new(1, 0.666667, 0.498039),
-				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds.",
+				Format = "Burns %d%% of enemy HP (Min: 1, Max: 180) per second for 5 seconds. (50% Shield Penetration)",
 			},
 		},
 	},
