@@ -213,6 +213,43 @@ local module = {
 				[4] = 30,
 				[5] = 45,
 			},
+			Burn = {
+				[1] = {
+					DamagePercentage = 1,
+					Duration = 5,
+					Tick = 1,
+					Max = 180,
+					ShieldPenetration = 50,
+				},
+				[2] = {
+					DamagePercentage = 1,
+					Duration = 5,
+					Tick = 1,
+					Max = 180,
+					ShieldPenetration = 50,
+				},
+				[3] = {
+					DamagePercentage = 2.5,
+					Duration = 5,
+					Tick = 1,
+					Max = 180,
+					ShieldPenetration = 50,
+				},
+				[4] = {
+					DamagePercentage = 5,
+					Duration = 5,
+					Tick = 1,
+					Max = 180,
+					ShieldPenetration = 50,
+				},
+				[5] = {
+					DamagePercentage = 10,
+					Duration = 5,
+					Tick = 1,
+					Max = 180,
+					ShieldPenetration = 50,
+				},
+			}
 		},
 		[1] = {
 			Cooldown = 1.4,
@@ -232,26 +269,12 @@ local module = {
 			Range = 5.5,
 			Damage = 10,
 			Price = 525,
-			Burn = {
-				DamagePercentage = 1,
-				Duration = 5,
-				Tick = 1,
-				Max = 180,
-				ShieldPenetration = 50,
-			},
 		},
 		[3] = {
 			Cooldown = 1,
 			Range = 6,
 			Damage = 20,
 			Price = 1050,
-			Burn = {
-				DamagePercentage = 2.5,
-				Duration = 5,
-				Max = 180,
-				Tick = 1,
-				ShieldPenetration = 50,
-			},
 		},
 		[4] = {
 			Cooldown = 0.9,
@@ -271,13 +294,6 @@ local module = {
 			Range = 8,
 			Damage = 55,
 			Price = 8000,
-			Burn = {
-				DamagePercentage = 1,
-				Duration = 5,
-				Max = 180,
-				Tick = 1,
-				ShieldPenetration = 50,
-			},
 		},
 	},
 
