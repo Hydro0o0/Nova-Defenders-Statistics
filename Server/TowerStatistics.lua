@@ -421,34 +421,56 @@ local module = {
 				[4] = "Skylight",
 				[5] = "Skylight",
 			},
+			BuffStack = {
+				[4] = 0.15,
+				[5] = 5,
+			},
+			DamageIBD = {
+				[1] = {
+					DamagePercentage = 0.1,
+					PerDistance = 1,
+				},
+				[2] = {
+					DamagePercentage = 0.1,
+					PerDistance = 1,
+				},
+				[3] = {
+					DamagePercentage = 0.1,
+					PerDistance = 1,
+				},
+				[4] = {
+					DamagePercentage = 0.25,
+					PerDistance = 1,
+				},
+				[5] = {
+					DamagePercentage = 0.5,
+					PerDistance = 1,
+				},
+			}
 		},
 		[1] = {
 			Cooldown = 6,
 			Range = 50,
 			Damage = 200,
 			Price = 5000,
-			KineticAccretion = 0.1,
 		},
 		[2] = {
 			Cooldown = 5,
 			Range = 50,
 			Damage = 200,
 			Price = 1350,
-			KineticAccretion = 0.1,
 		},
 		[3] = {
 			Cooldown = 4,
 			Range = 50,
 			Damage = 250,
 			Price = 4150,
-			KineticAccretion = 0.1,
 		},
 		[4] = {
 			Cooldown = 8,
 			Range = 75,
 			Damage = 1000,
 			Price = 10000,
-			KineticAccretion = 0.25,
 			ProgressiveIonisation = 0.1,
 			LayeredRupture = {
 				Subtract = 1,
@@ -461,7 +483,6 @@ local module = {
 			Range = 75,
 			Damage = 4000,
 			Price = 25000,
-			KineticAccretion = 0.5,
 			ProgressiveIonisation = 0.15,
 		},
 	},	
