@@ -707,9 +707,9 @@ local module = {
 			SkylightBeam = {
 				[1] = { "Start" },
 				[2] = { "Start" },
-				[3] = { "Start1" },
-				[4] = { "Start2" },
-				[5] = { "Start3" },
+				[3] = { "Start" },
+				[4] = { "Start1" },
+				[5] = { "Start2" },
 			},
 			Air = { 1, 2, 3, 4 , 5},
 			Hidden = { 4, 5	 },
