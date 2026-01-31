@@ -815,6 +815,9 @@ local module = {
 			Exclude = {
 				"Torso 3",
 				"Torso Neon 3",
+				"Circle1",
+				"square",
+				"PointLight",
 			},
 			Animation = 4,
 
