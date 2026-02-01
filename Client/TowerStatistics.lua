@@ -813,8 +813,6 @@ local module = {
 			Name = "Skylight",
 			Invisible = { 4 },
 			Exclude = {
-				"Torso 3",
-				"Torso Neon 3",
 				"Circle1",
 				"square",
 				"PointLight",
