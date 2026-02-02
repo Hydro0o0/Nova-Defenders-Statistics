@@ -423,7 +423,7 @@ local module = {
 			},
 			BuffStack = {
 				[4] = 0.15,
-				[5] = 5,
+				[5] = 0.3,
 			},
 			DamageIBD = {
 				[1] = {
