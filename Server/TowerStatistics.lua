@@ -422,6 +422,7 @@ local module = {
 				[5] = "Skylight",
 			},
 			BuffStack = {
+				StackID = 1,
 				[4] = 0.15,
 				[5] = 0.3,
 			},
