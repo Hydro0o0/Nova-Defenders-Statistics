@@ -421,6 +421,7 @@ local module = {
 				[4] = "Skylight",
 				[5] = "Skylight",
 			},
+			DeathEffect = 1, --SkylightDeath
 			BuffStack = {
 				StackID = 4,
 				[4] = 0.15,
