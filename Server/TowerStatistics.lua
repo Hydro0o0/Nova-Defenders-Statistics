@@ -422,6 +422,15 @@ local module = {
 				[5] = "Skylight",
 			},
 			DeathEffect = 1, --SkylightDeath
+			DeathEffectStatistics = {
+				[3] = {
+					BaseRange = 2,
+					BaseDamage = 300,
+					ScaleByStack = 4, --ID Of Addtribute
+					ExtraRangePercentagePerStack = 0.02,
+					ExtraDamagePercentagePerStack = 0.01,
+				}
+			},
 			BuffStack = {
 				StackID = 4,
 				[4] = 0.15,
