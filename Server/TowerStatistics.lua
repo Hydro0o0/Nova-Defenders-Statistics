@@ -423,7 +423,7 @@ local module = {
 			},
 			DeathEffect = 1, --SkylightDeath
 			DeathEffectStatistics = {
-				[3] = {
+				[4] = {
 					BaseRange = 2,
 					BaseDamage = 300,
 					ScaleByStack = 4, --ID Of Addtribute
