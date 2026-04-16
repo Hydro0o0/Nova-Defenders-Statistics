@@ -801,7 +801,7 @@ local module = {
 			["Critical Ion Density"] = {
 				Value = 300,
 				Colour = Color3.new(0.235294, 0, 0.235294),
-				Format = "Critical Ion Density: Once the enemy has been defeated and has been charged due to progressive ionisation, it will outburst energy dealing %d with a base range of 2 studs. (+0.2%% range and 1%% damage per ionisation stack)"
+				Format = "Critical Ion Density: Once the enemy has been defeated and has been charged due to progressive ionisation, it will outburst energy dealing %d with a base range of 4 studs. (+0.2%% range and 1%% damage per ionisation stack)"
 			},
 		},
 		[5] = {
