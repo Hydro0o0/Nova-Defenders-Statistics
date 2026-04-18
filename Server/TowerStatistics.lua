@@ -165,7 +165,7 @@ local module = {
 			Price = 375,
 			ShieldPenetration = 15,
 		},
-		[2] = {
+		[2] = {	
 			Cooldown = 3.6,
 			Range = 28,
 			Damage = 28,
@@ -499,7 +499,7 @@ local module = {
 		[5] = {
 			Cooldown = 16,
 			Range = 75,
-			Damage = 4000,
+			Damage = 4500,
 			Price = 25000,
 			ProgressiveIonisation = 0.15,
 		},
