@@ -631,7 +631,6 @@ local module = {
 				"Torso acc",
 				"Weapon",
 				"Handle",
-				"Headlight Point",
 			},
 			["Explosion Range"] = {
 				Value = 4,
@@ -646,13 +645,12 @@ local module = {
 			Damage = 14,
 			Price = 2500,
 			Name = "Blitzkrieg",
-			Invisible = { 2 },
+			Invisible = { 1, 2 },
 			Exclude = {
 				"Head acc",
 				"Left Leg acc",
 				"Right Leg acc",
 				"Torso acc",
-				"Headlight Point",
 			},
 			["Explosion Range"] = {
 				Value = 6,
