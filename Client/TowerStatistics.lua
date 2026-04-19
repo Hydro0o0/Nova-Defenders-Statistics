@@ -650,6 +650,8 @@ local module = {
 				"Head acc",
 				"Left Leg acc",
 				"Right Leg acc",
+				"Left Arm acc",
+				"Right Arm acc",
 				"Torso acc",
 			},
 			["Explosion Range"] = {
@@ -672,6 +674,7 @@ local module = {
 			Name = "Blitzkrieg",
 			Invisible = { 1, 2, 3 },
 			Exclude = {
+				"Head acc",
 				"Weapon",
 			},
 		},
