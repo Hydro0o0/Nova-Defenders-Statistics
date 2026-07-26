@@ -517,6 +517,10 @@ local module = {
 			},
 			Bullet = {
 				[0] = {"Start", "Start2"},
+				[1] = {"Start", "Start2"},
+				[2] = {"Start", "Start2"},
+				[3] = {"Start", "Start2"},
+				[4] = {"Start", "Start2"},
 			},
 			Effect = "Bullet",
 		},
