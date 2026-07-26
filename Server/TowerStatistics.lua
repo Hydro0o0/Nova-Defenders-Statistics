@@ -507,67 +507,65 @@ local module = {
 	
 	Anomaly = {
 		ExtraInfo = {
-			Hidden = {1,2,3,4,5},
-			MaxLevel = 5,
-			AOE = {
-				[1] = {
-					Studs = 3,
-					Delayed = 0.5 --if delayed is undefined it will be 0, same goes for stud except its default to 3
-				},
-				[2] = {
-					Studs = 4,
-					Delayed = 0.5
-				},
-				[3] = {
-					Studs = 6,
-					Delayed = 0.4
-				},
-				[4] = {
-					Studs = 6,
-					Delayed = 0.3
-				},
-				[5] = {
-					Studs = 7,
-					Delayed = 0.25
-				},
-			},
+			MaxLevel = 4,
 			Class = {
-				[1] = "AOE",
-				[2] = "AOE",
-				[3] = "AOE",
-				[4] = "AOE",
-				[5] = "AOE",
+				[0] = "Single",
+				[1] = "Single",
+				[2] = "Single",
+				[3] = "Single",
+				[4] = "Single",
 			},
+			Bullet = {
+				[0] = {"Start", "Start2"},
+			},
+			Effect = "Bullet",
+		},
+		[0] = {
+			Cooldown = 0.15,
+			Range = 12,
+			Damage = 1,
+			Price = 500,
+			Name = "Anomaly",
 		},
 		[1] = {
-			Cooldown = 1,
-			Range = 3,
-			Damage = 5,
-			Price = 500,
-		},
-		[2] = {
-			Cooldown = 1,
-			Range = 3,
+			LevelName = "(?)",
+			Cooldown = 0.15,
+			Range = 12,
 			Damage = 8,
 			Price = 200,
+			Invisible = {},
+			Exlude = {},
+			Name = "Anomaly",
 		},
-		[3] = {
+		[2] = {
+			LevelName = "(?)",
 			Cooldown = 0.75,
 			Range = 3,
 			Damage = 11,
 			Price = 1000,
+			Invisible = {},
+			Exlude = {},
+			Name = "Anomaly",
 		},
-		[4] = {
+		[3] = {
+			LevelName = "(?)",
 			Cooldown = 0.5,
 			Range = 4,
 			Damage = 17,
 			Price = 1850,
+			Invisible = {},
+			Exlude = {},
+			Name = "Anomaly",
 		},
-		[5] = {
+		[4] = {
+			LevelName = "(?)",
 			Cooldown = 0.3,
 			Range = 4,
 			Damage = 30,
 			Price = 3000,
+			Invisible = {},
+			Exlude = {},
+			Name = "Anomaly",
 		},
 	},
 }
