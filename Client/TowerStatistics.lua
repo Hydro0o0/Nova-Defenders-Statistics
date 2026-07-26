@@ -838,41 +838,37 @@ local module = {
 
 	Anomaly = {
 		ExtraInfo = {
-			MaxLevel = 5,
+			MaxLevel = 4,
 			Class = {
+				[0] = "Single",
 				[1] = "Single",
 				[2] = "Single",
 				[3] = "Single",
 				[4] = "Single",
-				[5] = "Single",
 			},
-			Explosion = {
-				[1] = { Effect = "NormalExplosion", Speed = 0.5, Grenade = "BlitzGrenade0", Sound = "SmallExplosion", AOE = 3 },
-				[2] = { Effect = "NormalExplosion", Speed = 0.5, Grenade = "BlitzGrenade0", Sound = "SmallExplosion", AOE = 4 },
-				[3] = { Effect = "BigExplosion", Speed = 0.4, Grenade = "BlitzGrenade2", Sound = "Explosion", AOE = 6 },
-				[4] = { Effect = "BigExplosion", Speed = 0.3, Grenade = "BlitzGrenade2", Sound = "Explosion", AOE = 6 },
-				[5] = { Effect = "BigExplosion", Speed = 0.25, Grenade = "BlitzGrenade2", Sound = "BigExplosion", AOE = 7 },
+			Bullet = {
+				[0] = {"Start", "Start2"},
 			},
-			Effect = "Explosion",
+			Effect = "Bullet",
 		},
-		[1] = {
-			Cooldown = 1,
-			Range = 3,
-			Damage = 5,
+		[0] = {
+			Cooldown = 0.15,
+			Range = 12,
+			Damage = 1,
 			Price = 500,
 			Name = "Anomaly",
 		},
-		[2] = {
+		[1] = {
 			LevelName = "(?)",
-			Cooldown = 1,
-			Range = 3,
+			Cooldown = 0.15,
+			Range = 12,
 			Damage = 8,
 			Price = 200,
 			Invisible = {},
 			Exlude = {},
 			Name = "Anomaly",
 		},
-		[3] = {
+		[2] = {
 			LevelName = "(?)",
 			Cooldown = 0.75,
 			Range = 3,
@@ -882,7 +878,7 @@ local module = {
 			Exlude = {},
 			Name = "Anomaly",
 		},
-		[4] = {
+		[3] = {
 			LevelName = "(?)",
 			Cooldown = 0.5,
 			Range = 4,
@@ -892,7 +888,7 @@ local module = {
 			Exlude = {},
 			Name = "Anomaly",
 		},
-		[5] = {
+		[4] = {
 			LevelName = "(?)",
 			Cooldown = 0.3,
 			Range = 4,
