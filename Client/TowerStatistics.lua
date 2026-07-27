@@ -18,6 +18,9 @@ local module = {
 				[5] = "Pulse",
 			},
 			Pulse = {
+				LastPulseTime = 0,
+				Bar = 0,
+				Active = false,
 				[1] = {
 					Amount = 10,
 					Shots = 8,
