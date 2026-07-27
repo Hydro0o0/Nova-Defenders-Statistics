@@ -9,13 +9,40 @@ local module = {
 				[4] = { "Start", "Start2" },
 				[5] = { "Start3" },
 			},
-			Hidden = { 4, 5 },
+			Hidden = { 3, 4, 5 },
 			Class = {
-				[1] = "Single",
-				[2] = "Single",
-				[3] = "Single",
-				[4] = "Single",
-				[5] = "Single",
+				[1] = "Pulse",
+				[2] = "Pulse",
+				[3] = "Pulse",
+				[4] = "Pulse",
+				[5] = "Pulse",
+			},
+			Pulse = {
+				[1] = {
+					Amount = 10,
+					Shots = 8,
+					Cooldown = 8,
+				},
+				[2] = {
+					Amount = 10,
+					Shots = 8,
+					Cooldown = 8,
+				},
+				[3] = {
+					Amount = 10,
+					Shots = 10,
+					Cooldown = 8,
+				},
+				[4] = {
+					Amount = 20,
+					Shots = 12,
+					Cooldown = 7,
+				},
+				[5] = {
+					Amount = 30,
+					Shots = 15,
+					Cooldown = 6,
+				},
 			},
 			Effect = "Bullet",
 		},
@@ -59,6 +86,13 @@ local module = {
 				"Right Arm acc",
 				"Left Arm acc",
 			},
+
+			["Pulse Bar : Duration"] = {
+				Value = 10,
+				Colour = Color3.new(0.317647, 0.945098, 1),
+				Format = "%d%% Shots.",
+				MustShow = true,
+			},
 		},
 		[4] = {
 			LevelName = "Biker Clothes and A New Buddy",
@@ -72,6 +106,24 @@ local module = {
 			OrderedAnimations = 2, -- Max Value of animation to cycle
 			Exclude = {
 				"Head acc",
+			},
+			["Pulse Bar"] = {
+				Value = 20,
+				Colour = Color3.new(0.317647, 0.945098, 1),
+				Format = "Pulse bar requires %d%% Shots to the enemy.",
+				MustShow = true,
+			},
+			["Pulse Bar : Duration"] = {
+				Value = 12,
+				Colour = Color3.new(0.317647, 0.945098, 1),
+				Format = "%d%% Shots.",
+				MustShow = true,
+			},
+			["Pulse Bar : Cooldown"] = {
+				Value = 7,
+				Colour = Color3.new(0.317647, 0.945098, 1),
+				Format = "%d%% Seconds.",
+				MustShow = true,
 			},
 		},
 		[5] = {
@@ -87,7 +139,25 @@ local module = {
 				"OrderedAnimations",
 				"OrderedAnimationsCurrentCycle",
 				"SpeedUpCorrectly",
-			}
+			},
+			["Pulse Bar"] = {
+				Value = 30,
+				Colour = Color3.new(0.317647, 0.945098, 1),
+				Format = "Pulse bar requires %d%% Shots to the enemy.",
+				MustShow = true,
+			},
+			["Pulse Bar : Duration"] = {
+				Value = 15,
+				Colour = Color3.new(0.317647, 0.945098, 1),
+				Format = "%d%% Shots.",
+				MustShow = true,
+			},
+			["Pulse Bar : Cooldown"] = {
+				Value = 6,
+				Colour = Color3.new(0.317647, 0.945098, 1),
+				Format = "%d%% Seconds.",
+				MustShow = true,
+			},
 		},
 	},
 

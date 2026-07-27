@@ -11,7 +11,34 @@ local module = {
 				[3] = "Pulse",
 				[4] = "Pulse",
 				[5] = "Pulse",
-			}
+			},
+			Pulse = {
+				[1] = {
+					Amount = 10,
+					Shots = 8,
+					Cooldown = 8,
+				},
+				[2] = {
+					Amount = 10,
+					Shots = 8,
+					Cooldown = 8,
+				},
+				[3] = {
+					Amount = 10,
+					Shots = 10,
+					Cooldown = 8,
+				},
+				[4] = {
+					Amount = 20,
+					Shots = 12,
+					Cooldown = 7,
+				},
+				[5] = {
+					Amount = 30,
+					Shots = 15,
+					Cooldown = 6,
+				},
+			},
 		},
 		[1] = {
 			Cooldown = 0.8,
