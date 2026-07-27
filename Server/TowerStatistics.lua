@@ -6,11 +6,11 @@ local module = {
 			MaxPlacement = 14, 
 			Hidden = {4,5},
 			Class = {
-				[1] = "Single",
-				[2] = "Single",
-				[3] = "Single",
-				[4] = "Single",
-				[5] = "Single",
+				[1] = "Pulse",
+				[2] = "Pulse",
+				[3] = "Pulse",
+				[4] = "Pulse",
+				[5] = "Pulse",
 			}
 		},
 		[1] = {
