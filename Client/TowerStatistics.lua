@@ -940,7 +940,6 @@ local module = {
 			Damage = 2,
 			Price = 450,
 			Invisible = {},
-			Exlude = {},
 			Name = "Anomaly",
 			OrderedAnimations = 2,
 		},
@@ -951,7 +950,6 @@ local module = {
 			Damage = 8,
 			Price = 1855,
 			Invisible = {},
-			Exlude = {},
 			Name = "Anomaly",
 			OrderedAnimations = 2,
 		},
@@ -962,7 +960,6 @@ local module = {
 			Damage = 12,
 			Price = 2750,
 			Invisible = {},
-			Exlude = {},
 			Name = "Anomaly",
 			OrderedAnimations = 2,
 		},
@@ -973,7 +970,6 @@ local module = {
 			Damage = 20,
 			Price = 5000,
 			Invisible = {},
-			Exlude = {},
 			Name = "Anomaly",
 			OrderedAnimations = 2,
 		},
@@ -990,6 +986,13 @@ local module = {
 				[3] = "Single",
 				[4] = "Single",
 				[5] = "Single",
+			},
+			Bullet = {
+				[1] = {"Start"},
+				[2] = {"Start"},
+				[3] = {"Start"},
+				[4] = {"Start2"},
+				[5] = {"Start3"},
 			},
 			Dealer = {
 				DamageDealtOnWave = 0,
@@ -1030,7 +1033,6 @@ local module = {
 
 			LevelName = "Expanding Network",
 			Invisible = {},
-			Exlude = {},
 			Name = "Dealer",
 		},
 		[3] = {
@@ -1041,10 +1043,14 @@ local module = {
 
 			LevelName = "Lucrative Contracts",
 			Invisible = { 1 },
-			Exlude = {
+			Exclude = {
 				"Vest",
-				"Gun1",
-				"Briefcase"
+				"GunHandle",
+				"Gun1Body",
+				"CaseBody",
+				"CaseBody2",
+				"CaseHandle",
+				"CaseHandle2",
 			},
 			Name = "Dealer",
 		},
@@ -1053,12 +1059,28 @@ local module = {
 			Range = 17,
 			Damage = 10,
 			Price = 2700,
+
+			LevelName = "Business Expansion",
+			Invisible = { 1 },
+			Exclude = {
+				"Vest",
+				"CaseBody",
+				"CaseBody2",
+				"CaseHandle",
+				"CaseHandle2",
+			},
+			Name = "Dealer",
 		},
 		[5] = {
 			Cooldown = 0.2,
 			Range = 23,
 			Damage = 10,
 			Price = 5000,
+			LevelName = "Compound Investments",
+			Invisible = { 1, 4 },
+			Exclude = {
+			},
+			Name = "Dealer",
 		},
 	},
 
