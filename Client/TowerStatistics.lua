@@ -1017,6 +1017,7 @@ local module = {
 					Multiplier = 0.7,
 				},
 			},
+			Effect = "Bullet",
 		},
 		[1] = {
 			Cooldown = 1,
