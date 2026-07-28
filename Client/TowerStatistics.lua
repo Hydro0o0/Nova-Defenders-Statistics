@@ -1079,6 +1079,7 @@ local module = {
 			LevelName = "Compound Investments",
 			Invisible = { 1, 4 },
 			Exclude = {
+				"Fedora"
 			},
 			Name = "Dealer",
 		},
