@@ -643,7 +643,7 @@ local module = {
 		},
 		[1] = {
 			Cooldown = 1,
-			Range = 12,
+			Range = 10,
 			Damage = 2,
 			Price = 600,
 		},
@@ -655,19 +655,19 @@ local module = {
 		},
 		[3] = {
 			Cooldown = 0.75,
-			Range = 17,
+			Range = 15,
 			Damage = 5,
 			Price = 900,
 		},
 		[4] = {
 			Cooldown = 0.6,
-			Range = 17,
+			Range = 15,
 			Damage = 10,
 			Price = 2700,
 		},
 		[5] = {
 			Cooldown = 0.2,
-			Range = 23,
+			Range = 17,
 			Damage = 10,
 			Price = 5000,
 		},
