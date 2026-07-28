@@ -604,6 +604,74 @@ local module = {
 			OrderedAnimations = 2,
 		},
 	},
+
+	Dealer = {
+		ExtraInfo = {
+			MaxLevel = 5,
+			MaxPlacement = 6, 
+			Hidden = {2,3,4,5},
+			Class = {
+				[1] = "Single",
+				[2] = "Single",
+				[3] = "Single",
+				[4] = "Single",
+				[5] = "Single",
+			},
+			Dealer = {
+				DamageDealtOnWave = 0,
+				[1] = {
+					FixedIncome = 35,
+					Multiplier = 0.5,
+				},
+				[2] = {
+					FixedIncome = 55,
+					Multiplier = 0.55,
+				},
+				[3] = {
+					FixedIncome = 90,
+					Multiplier = 0.6,
+				},
+				[4] = {
+					FixedIncome = 180,
+					Multiplier = 0.7,
+				},
+				[5] = {
+					FixedIncome = 300,
+					Multiplier = 0.7,
+				},
+			},
+		},
+		[1] = {
+			Cooldown = 1,
+			Range = 12,
+			Damage = 2,
+			Price = 600,
+		},
+		[2] = {
+			Cooldown = 0.85,
+			Range = 15,
+			Damage = 3,
+			Price = 450,
+		},
+		[3] = {
+			Cooldown = 0.75,
+			Range = 17,
+			Damage = 5,
+			Price = 900,
+		},
+		[4] = {
+			Cooldown = 0.6,
+			Range = 17,
+			Damage = 10,
+			Price = 2700,
+		},
+		[5] = {
+			Cooldown = 0.2,
+			Range = 23,
+			Damage = 10,
+			Price = 5000,
+		},
+	},
 }
 
 return module
