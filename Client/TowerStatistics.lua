@@ -1025,6 +1025,16 @@ local module = {
 			Damage = 2,
 			Price = 600,
 			Name = "Dealer",
+			["Rates"] = {
+				Value = .5,
+				Colour = Color3.new(0.152941, 0.894117, 0.486274),
+				Format = "Rates: %d%% of damage done per wave"
+			},
+			["Fixed Rates"] = {
+				Value = 35,
+				Colour = Color3.new(0.078431, 0.360784, 0.098039),
+				Format = "Fixed Rates: %d Money per wave."
+			},
 		},
 		[2] = {
 			Cooldown = 0.85,
@@ -1035,6 +1045,16 @@ local module = {
 			LevelName = "Expanding Network",
 			Invisible = {},
 			Name = "Dealer",
+			["Rates"] = {
+				Value = .55,
+				Colour = Color3.new(0.152941, 0.894117, 0.486274),
+				Format = "Rates: %d%% of damage done per wave"
+			},
+			["Fixed Rates"] = {
+				Value = 55,
+				Colour = Color3.new(0.078431, 0.360784, 0.098039),
+				Format = "Fixed Rates: %d Money per wave."
+			},
 		},
 		[3] = {
 			Cooldown = 0.75,
@@ -1054,6 +1074,16 @@ local module = {
 				"CaseHandle2",
 			},
 			Name = "Dealer",
+			["Rates"] = {
+				Value = .6,
+				Colour = Color3.new(0.152941, 0.894117, 0.486274),
+				Format = "Rates: %d%% of damage done per wave"
+			},
+			["Fixed Rates"] = {
+				Value = 90,
+				Colour = Color3.new(0.078431, 0.360784, 0.098039),
+				Format = "Fixed Rates: %d Money per wave."
+			},
 		},
 		[4] = {
 			Cooldown = 0.6,
@@ -1071,6 +1101,16 @@ local module = {
 				"CaseHandle2",
 			},
 			Name = "Dealer",
+			["Rates"] = {
+				Value = .7,
+				Colour = Color3.new(0.152941, 0.894117, 0.486274),
+				Format = "Rates: %d%% of damage done per wave"
+			},
+			["Fixed Rates"] = {
+				Value = 180,
+				Colour = Color3.new(0.078431, 0.360784, 0.098039),
+				Format = "Fixed Rates: %d Money per wave."
+			},
 		},
 		[5] = {
 			Cooldown = 0.2,
@@ -1084,6 +1124,16 @@ local module = {
 			},
 			Name = "Dealer",
 		},
+		["Rates"] = {
+				Value = .7,
+				Colour = Color3.new(0.152941, 0.894117, 0.486274),
+				Format = "Rates: %d%% of damage done per wave"
+			},
+			["Fixed Rates"] = {
+				Value = 300,
+				Colour = Color3.new(0.078431, 0.360784, 0.098039),
+				Format = "Fixed Rates: %d Money per wave."
+			},
 	},
 
 	None = {
