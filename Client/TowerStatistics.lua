@@ -1026,7 +1026,7 @@ local module = {
 			Price = 600,
 			Name = "Dealer",
 			["Rates"] = {
-				Value = .5,
+				Value = 50,
 				Colour = Color3.new(0.152941, 0.894117, 0.486274),
 				Format = "Rates: %d%% of damage done per wave"
 			},
@@ -1046,7 +1046,7 @@ local module = {
 			Invisible = {},
 			Name = "Dealer",
 			["Rates"] = {
-				Value = .55,
+				Value = 55,
 				Colour = Color3.new(0.152941, 0.894117, 0.486274),
 				Format = "Rates: %d%% of damage done per wave"
 			},
@@ -1075,7 +1075,7 @@ local module = {
 			},
 			Name = "Dealer",
 			["Rates"] = {
-				Value = .6,
+				Value = 60,
 				Colour = Color3.new(0.152941, 0.894117, 0.486274),
 				Format = "Rates: %d%% of damage done per wave"
 			},
@@ -1102,7 +1102,7 @@ local module = {
 			},
 			Name = "Dealer",
 			["Rates"] = {
-				Value = .7,
+				Value = 70,
 				Colour = Color3.new(0.152941, 0.894117, 0.486274),
 				Format = "Rates: %d%% of damage done per wave"
 			},
@@ -1125,7 +1125,7 @@ local module = {
 			Name = "Dealer",
 		},
 		["Rates"] = {
-				Value = .7,
+				Value = 70,
 				Colour = Color3.new(0.152941, 0.894117, 0.486274),
 				Format = "Rates: %d%% of damage done per wave"
 			},
