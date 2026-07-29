@@ -625,19 +625,19 @@ local module = {
 				},
 				[2] = {
 					FixedIncome = 55,
-					Multiplier = 0.55,
+					Multiplier = 0.7,
 				},
 				[3] = {
-					FixedIncome = 90,
-					Multiplier = 0.6,
+					FixedIncome = 145,
+					Multiplier = 0.85,
 				},
 				[4] = {
 					FixedIncome = 180,
-					Multiplier = 0.7,
+					Multiplier = 0.85,
 				},
 				[5] = {
-					FixedIncome = 300,
-					Multiplier = 0.7,
+					FixedIncome = 100,
+					Multiplier = 1,
 				},
 			},
 		},
@@ -645,7 +645,7 @@ local module = {
 			Cooldown = 1,
 			Range = 10,
 			Damage = 2,
-			Price = 600,
+			Price = 550,
 		},
 		[2] = {
 			Cooldown = 0.85,
@@ -669,7 +669,7 @@ local module = {
 			Cooldown = 0.2,
 			Range = 17,
 			Damage = 10,
-			Price = 5000,
+			Price = 9000,
 		},
 	},
 }
