@@ -398,7 +398,7 @@ local module = {
 			Name = "Vesper",
 			Invisible = { 1 },
 			["Armour Penetration"] = {
-				Value = 15,
+				Value = 20,
 				Colour = Color3.new(1, 0, 0),
 				Format = "Shield Penetration: %d%%.",
 				MustShow = true,
@@ -413,7 +413,7 @@ local module = {
 			Name = "Vesper",
 			Invisible = { 2 },
 			["Armour Penetration"] = {
-				Value = 15,
+				Value = 25,
 				Colour = Color3.new(1, 0, 0),
 				Format = "Shield Penetration: %d%%.",
 				MustShow = true,
@@ -429,7 +429,7 @@ local module = {
 			Invisible = { 3 },
 			Animation = 3,
 			["Armour Penetration"] = {
-				Value = 15,
+				Value = 30,
 				Colour = Color3.new(1, 0, 0),
 				Format = "Shield Penetration: %d%%.",
 				MustShow = true,
@@ -445,7 +445,7 @@ local module = {
 			Invisible = { 4 },
 			Animation = 4,
 			["Armour Penetration"] = {
-				Value = 15,
+				Value = 30,
 				Colour = Color3.new(1, 0, 0),
 				Format = "Shield Penetration: %d%%.",
 				MustShow = true,
@@ -658,6 +658,7 @@ local module = {
 	Blitzkrieg = {
 		ExtraInfo = {
 			MaxLevel = 5,
+			Hidden = {  4, 5 },
 			Class = {
 				[1] = "Single",
 				[2] = "Single",
@@ -675,10 +676,10 @@ local module = {
 			Effect = "Explosion",
 		},
 		[1] = {
-			Cooldown = 3,
+			Cooldown = 3.15,
 			Range = 7,
-			Damage = 8,
-			Price = 500,
+			Damage = 6,
+			Price = 450,
 			["Explosion Range"] = {
 				Value = 3,
 				Colour = Color3.new(1, 0.666667, 0.498039),
@@ -688,10 +689,10 @@ local module = {
 		},
 		[2] = {
 			LevelName = "New Gears",
-			Cooldown = 2.7,
+			Cooldown = 2.5,
 			Range = 8,
 			Damage = 8,
-			Price = 650,
+			Price = 300,
 			Name = "Blitzkrieg",
 			Invisible = { 1 },
 			Exclude = {
@@ -711,9 +712,9 @@ local module = {
 		[3] = {
 			LevelName = "Funni green ball go boom boom",
 			Cooldown = 2.3,
-			Range = 9,
-			Damage = 14,
-			Price = 2500,
+			Range = 11,
+			Damage = 18,
+			Price = 1050,
 			Name = "Blitzkrieg",
 			Invisible = { 1, 2 },
 			Exclude = {
@@ -733,11 +734,11 @@ local module = {
 		[4] = {
 			LevelName = "New Power Set",
 			Cooldown = 2.3,
-			Range = 13,
-			Damage = 14,
-			Price = 3000,
+			Range = 15,
+			Damage = 46,
+			Price = 2700,
 			["Explosion Range"] = {
-				Value = 6,
+				Value = 7,
 				Colour = Color3.new(1, 0.666667, 0.498039),
 				Format = "Explosion Radius: %d studs.",
 			},
@@ -747,15 +748,21 @@ local module = {
 				"Head acc",
 				"Weapon",
 			},
+			["Armour Penetration"] = {
+				Value = 10,
+				Colour = Color3.new(1, 0, 0),
+				Format = "Shield Penetration: %d%%.",
+				MustShow = true,
+			},
 		},
 		[5] = {
 			LevelName = "Oh this can shoot pretty far",
-			Cooldown = 2,
-			Range = 20,
-			Damage = 34,
-			Price = 5000,
+			Cooldown = 0.55,
+			Range = 18,
+			Damage = 28,
+			Price = 6900,
 			["Explosion Range"] = {
-				Value = 7,
+				Value = 6,
 				Colour = Color3.new(1, 0.666667, 0.498039),
 				Format = "Explosion Radius: %d studs.",
 			},
@@ -1025,6 +1032,16 @@ local module = {
 			Damage = 2,
 			Price = 550,
 			Name = "Dealer",
+			["Rates"] = {
+				Value = 50,
+				Colour = Color3.new(0.152941, 0.894117, 0.486274),
+				Format = "Rates: %d%% of damage done per wave"
+			},
+			["Fixed Rates"] = {
+				Value = 35,
+				Colour = Color3.new(0.078431, 0.360784, 0.098039),
+				Format = "Fixed Rates: %d Money per wave."
+			},
 		},
 		[2] = {
 			Cooldown = 0.85,
@@ -1035,6 +1052,16 @@ local module = {
 			LevelName = "Expanding Network",
 			Invisible = {},
 			Name = "Dealer",
+			["Rates"] = {
+				Value = 55,
+				Colour = Color3.new(0.152941, 0.894117, 0.486274),
+				Format = "Rates: %d%% of damage done per wave"
+			},
+			["Fixed Rates"] = {
+				Value = 55,
+				Colour = Color3.new(0.078431, 0.360784, 0.098039),
+				Format = "Fixed Rates: %d Money per wave."
+			},
 		},
 		[3] = {
 			Cooldown = 0.75,
@@ -1054,6 +1081,16 @@ local module = {
 				"CaseHandle2",
 			},
 			Name = "Dealer",
+			["Rates"] = {
+				Value = 60,
+				Colour = Color3.new(0.152941, 0.894117, 0.486274),
+				Format = "Rates: %d%% of damage done per wave"
+			},
+			["Fixed Rates"] = {
+				Value = 90,
+				Colour = Color3.new(0.078431, 0.360784, 0.098039),
+				Format = "Fixed Rates: %d Money per wave."
+			},
 		},
 		[4] = {
 			Cooldown = 0.6,
@@ -1071,6 +1108,16 @@ local module = {
 				"CaseHandle2",
 			},
 			Name = "Dealer",
+			["Rates"] = {
+				Value = 70,
+				Colour = Color3.new(0.152941, 0.894117, 0.486274),
+				Format = "Rates: %d%% of damage done per wave"
+			},
+			["Fixed Rates"] = {
+				Value = 180,
+				Colour = Color3.new(0.078431, 0.360784, 0.098039),
+				Format = "Fixed Rates: %d Money per wave."
+			},
 		},
 		[5] = {
 			Cooldown = 0.2,
@@ -1084,6 +1131,16 @@ local module = {
 				"Fedora"
 			},
 			Name = "Dealer",
+			["Rates"] = {
+				Value = 70,
+				Colour = Color3.new(0.152941, 0.894117, 0.486274),
+				Format = "Rates: %d%% of damage done per wave"
+			},
+			["Fixed Rates"] = {
+				Value = 300,
+				Colour = Color3.new(0.078431, 0.360784, 0.098039),
+				Format = "Fixed Rates: %d Money per wave."
+			},
 		},
 	},
 
