@@ -197,28 +197,28 @@ local module = {
 			Range = 28,
 			Damage = 28,
 			Price = 500,
-			ShieldPenetration = 15,
+			ShieldPenetration = 20,
 		},
 		[3] = {
 			Cooldown = 3.45,
 			Range = 33,
 			Damage = 45,
 			Price = 975,
-			ShieldPenetration = 15,
+			ShieldPenetration = 25,
 		},
 		[4] = {
 			Cooldown = 3.2,
 			Range = 39,
 			Damage = 90,
 			Price = 2000,
-			ShieldPenetration = 15,
+			ShieldPenetration = 30,
 		},
 		[5] = {
 			Cooldown = 2.8,
 			Range = 41,
 			Damage = 195,
 			Price = 4150,
-			ShieldPenetration = 15,
+			ShieldPenetration = 35,
 		},
 	},
 
@@ -372,6 +372,7 @@ local module = {
 	Blitzkrieg = {
 		ExtraInfo = {
 			MaxLevel = 5,
+			Hidden = { 4, 5 },
 			AOE = {
 				[1] = {
 					Studs = 3,
@@ -386,11 +387,11 @@ local module = {
 					Delayed = 0.4
 				},
 				[4] = {
-					Studs = 6,
+					Studs = 7,
 					Delayed = 0.3
 				},
 				[5] = {
-					Studs = 7,
+					Studs = 6,
 					Delayed = 0.25
 				},
 			},
@@ -403,34 +404,36 @@ local module = {
 			},
 		},
 		[1] = {
-			Cooldown = 3,
+			Cooldown = 3.15,
 			Range = 7,
-			Damage = 8,
-			Price = 500,
+			Damage = 6,
+			Price = 450,
 		},
 		[2] = {
-			Cooldown = 2.7,
+			Cooldown = 2.5,
 			Range = 8,
 			Damage = 8,
-			Price = 650,
+			Price = 300,
 		},
 		[3] = {
 			Cooldown = 2.3,
-			Range = 9,
-			Damage = 14,
-			Price = 2500,
+			Range = 11,
+			Damage = 18,
+			Price = 1050,
 		},
 		[4] = {
 			Cooldown = 2.3,
-			Range = 13,
-			Damage = 14,
-			Price = 3000,
+			Range = 15,
+			Damage = 46,
+			Price = 2700,
+			ShieldPenetration = 10,
 		},
 		[5] = {
-			Cooldown = 2,
-			Range = 20,
-			Damage = 34,
-			Price = 5000,
+			Cooldown = 0.55,
+			Range = 18,
+			Damage = 28,
+			Price = 6900,
+			ShieldPenetration = 10,
 		},
 	},
 
