@@ -1038,7 +1038,7 @@ local module = {
 				Format = "Rates: %d%% of damage done per wave"
 			},
 			["Fixed Rates"] = {
-				Value = 35,
+				Value = 70,
 				Colour = Color3.new(0.078431, 0.360784, 0.098039),
 				Format = "Fixed Rates: %d Money per wave."
 			},
@@ -1053,7 +1053,7 @@ local module = {
 			Invisible = {},
 			Name = "Dealer",
 			["Rates"] = {
-				Value = 55,
+				Value = 70,
 				Colour = Color3.new(0.152941, 0.894117, 0.486274),
 				Format = "Rates: %d%% of damage done per wave"
 			},
@@ -1082,12 +1082,12 @@ local module = {
 			},
 			Name = "Dealer",
 			["Rates"] = {
-				Value = 60,
+				Value = 85,
 				Colour = Color3.new(0.152941, 0.894117, 0.486274),
 				Format = "Rates: %d%% of damage done per wave"
 			},
 			["Fixed Rates"] = {
-				Value = 90,
+				Value = 145,
 				Colour = Color3.new(0.078431, 0.360784, 0.098039),
 				Format = "Fixed Rates: %d Money per wave."
 			},
@@ -1108,11 +1108,6 @@ local module = {
 				"CaseHandle2",
 			},
 			Name = "Dealer",
-			["Rates"] = {
-				Value = 70,
-				Colour = Color3.new(0.152941, 0.894117, 0.486274),
-				Format = "Rates: %d%% of damage done per wave"
-			},
 			["Fixed Rates"] = {
 				Value = 180,
 				Colour = Color3.new(0.078431, 0.360784, 0.098039),
@@ -1132,12 +1127,12 @@ local module = {
 			},
 			Name = "Dealer",
 			["Rates"] = {
-				Value = 70,
+				Value = 100,
 				Colour = Color3.new(0.152941, 0.894117, 0.486274),
 				Format = "Rates: %d%% of damage done per wave"
 			},
 			["Fixed Rates"] = {
-				Value = 300,
+				Value = 100,
 				Colour = Color3.new(0.078431, 0.360784, 0.098039),
 				Format = "Fixed Rates: %d Money per wave."
 			},
