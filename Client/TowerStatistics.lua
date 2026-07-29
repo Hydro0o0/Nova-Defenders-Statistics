@@ -1123,8 +1123,7 @@ local module = {
 				"Fedora"
 			},
 			Name = "Dealer",
-		},
-		["Rates"] = {
+			["Rates"] = {
 				Value = 70,
 				Colour = Color3.new(0.152941, 0.894117, 0.486274),
 				Format = "Rates: %d%% of damage done per wave"
@@ -1134,6 +1133,7 @@ local module = {
 				Colour = Color3.new(0.078431, 0.360784, 0.098039),
 				Format = "Fixed Rates: %d Money per wave."
 			},
+		},
 	},
 
 	None = {
