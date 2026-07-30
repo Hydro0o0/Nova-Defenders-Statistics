@@ -49,12 +49,12 @@ local module = {
 		[1] = {
 			Cooldown = 0.8,
 			Range = 13,
-			Damage = 10000, --2
+			Damage = 2, --2
 			Price = 175,
 			Name = "Pulse",
 		},
 		[2] = {
-			LevelName = "Gloves!!",
+			LevelName = "THIS IS TESTING BRANCH DATA!!",
 			Cooldown = 0.8,
 			Range = 15,
 			Damage = 3,
