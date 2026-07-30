@@ -43,7 +43,7 @@ local module = {
 		[1] = {
 			Cooldown = 0.8,
 			Range = 13,
-			Damage = 10000, --2
+			Damage = 2, --2
 			Price = 175,
 		},
 		[2] = {
