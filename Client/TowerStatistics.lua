@@ -642,6 +642,11 @@ local module = {
 			Name = "Exterminator",
 			Invisible = { 3 },
 			Animation = 3,
+			["Bullet Piercing Technology"] = {
+				Value = 2,
+				Colour = Color3.new(1, 0, 0),
+				Format = "Can hit %d enemies per shot.",
+			},
 		},
 		[5] = {
 			LevelName = "New Military Advancement",
