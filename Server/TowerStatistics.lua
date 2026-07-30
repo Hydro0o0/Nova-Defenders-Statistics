@@ -218,7 +218,7 @@ local module = {
 			Range = 41,
 			Damage = 195,
 			Price = 4150,
-			ShieldPenetration = 35,
+			ShieldPenetration = 50,
 		},
 	},
 
