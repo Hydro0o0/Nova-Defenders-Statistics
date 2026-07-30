@@ -341,7 +341,7 @@ local module = {
 					MaxPierce = 2,
 				},
 				[5] = {
-					MaxPierce = 3,
+					MaxPierce = 2,
 				},
 			},
 		},
