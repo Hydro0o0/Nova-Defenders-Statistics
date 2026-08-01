@@ -1043,7 +1043,7 @@ local module = {
 				Format = "Rates: %d%% of damage done per wave"
 			},
 			["Fixed Rates"] = {
-				Value = 70,
+				Value = 35,
 				Colour = Color3.new(0.078431, 0.360784, 0.098039),
 				Format = "Fixed Rates: %d Money per wave."
 			},
