@@ -1053,7 +1053,6 @@ local module = {
 			Range = 15,
 			Damage = 3,
 			Price = 450,
-
 			LevelName = "Expanding Network",
 			Invisible = {},
 			Name = "Dealer",
@@ -1078,12 +1077,8 @@ local module = {
 			Invisible = { 1 },
 			Exclude = {
 				"Vest",
-				"GunHandle",
-				"Gun1Body",
-				"CaseBody",
-				"CaseBody2",
-				"CaseHandle",
-				"CaseHandle2",
+				"Gun1",
+				"Case",
 			},
 			Name = "Dealer",
 			["Rates"] = {
@@ -1107,10 +1102,7 @@ local module = {
 			Invisible = { 1 },
 			Exclude = {
 				"Vest",
-				"CaseBody",
-				"CaseBody2",
-				"CaseHandle",
-				"CaseHandle2",
+				"Case",
 			},
 			Name = "Dealer",
 			["Fixed Rates"] = {
@@ -1124,7 +1116,7 @@ local module = {
 			Range = 17,
 			Damage = 10,
 			Price = 9000,
-
+			Animation = 5,
 			LevelName = "Compound Investments",
 			Invisible = { 1, 4 },
 			Exclude = {
