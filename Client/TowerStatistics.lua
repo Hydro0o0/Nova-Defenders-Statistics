@@ -49,12 +49,12 @@ local module = {
 		[1] = {
 			Cooldown = 0.8,
 			Range = 13,
-			Damage = 2,
+			Damage = 2, --2
 			Price = 175,
 			Name = "Pulse",
 		},
 		[2] = {
-			LevelName = "Gloves!!",
+			LevelName = "THIS IS TESTING BRANCH DATA!!",
 			Cooldown = 0.8,
 			Range = 15,
 			Damage = 3,
@@ -445,7 +445,7 @@ local module = {
 			Invisible = { 4 },
 			Animation = 4,
 			["Armour Penetration"] = {
-				Value = 30,
+				Value = 50,
 				Colour = Color3.new(1, 0, 0),
 				Format = "Shield Penetration: %d%%.",
 				MustShow = true,
@@ -642,6 +642,11 @@ local module = {
 			Name = "Exterminator",
 			Invisible = { 3 },
 			Animation = 3,
+			["Bullet Piercing Technology"] = {
+				Value = 2,
+				Colour = Color3.new(1, 0, 0),
+				Format = "Can hit %d enemies per shot.",
+			},
 		},
 		[5] = {
 			LevelName = "New Military Advancement",
@@ -1038,7 +1043,7 @@ local module = {
 				Format = "Rates: %d%% of damage done per wave"
 			},
 			["Fixed Rates"] = {
-				Value = 70,
+				Value = 35,
 				Colour = Color3.new(0.078431, 0.360784, 0.098039),
 				Format = "Fixed Rates: %d Money per wave."
 			},
@@ -1048,7 +1053,6 @@ local module = {
 			Range = 15,
 			Damage = 3,
 			Price = 450,
-
 			LevelName = "Expanding Network",
 			Invisible = {},
 			Name = "Dealer",
@@ -1073,12 +1077,8 @@ local module = {
 			Invisible = { 1 },
 			Exclude = {
 				"Vest",
-				"GunHandle",
-				"Gun1Body",
-				"CaseBody",
-				"CaseBody2",
-				"CaseHandle",
-				"CaseHandle2",
+				"Gun1",
+				"Case",
 			},
 			Name = "Dealer",
 			["Rates"] = {
@@ -1102,10 +1102,7 @@ local module = {
 			Invisible = { 1 },
 			Exclude = {
 				"Vest",
-				"CaseBody",
-				"CaseBody2",
-				"CaseHandle",
-				"CaseHandle2",
+				"Case",
 			},
 			Name = "Dealer",
 			["Fixed Rates"] = {
@@ -1119,7 +1116,7 @@ local module = {
 			Range = 17,
 			Damage = 10,
 			Price = 9000,
-
+			Animation = 5,
 			LevelName = "Compound Investments",
 			Invisible = { 1, 4 },
 			Exclude = {

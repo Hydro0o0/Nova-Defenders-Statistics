@@ -43,7 +43,7 @@ local module = {
 		[1] = {
 			Cooldown = 0.8,
 			Range = 13,
-			Damage = 2,
+			Damage = 2, --2
 			Price = 175,
 		},
 		[2] = {
@@ -218,7 +218,7 @@ local module = {
 			Range = 41,
 			Damage = 195,
 			Price = 4150,
-			ShieldPenetration = 35,
+			ShieldPenetration = 50,
 		},
 	},
 
@@ -333,38 +333,46 @@ local module = {
 				[1] = "Single",
 				[2] = "Single",
 				[3] = "Single",
-				[4] = "Single",
-				[5] = "Single",
+				[4] = "Pierce",
+				[5] = "Pierce",
+			},
+			Pierce = {
+				[4] = {
+					MaxPierce = 2,
+				},
+				[5] = {
+					MaxPierce = 2,
+				},
 			},
 		},
 		[1] = {
-			Cooldown = 0.48,
+			Cooldown = 0.3,
 			Range = 15,
-			Damage = 12,
+			Damage = 10,
 			Price = 3500,
 		},
 		[2] = {
-			Cooldown = 0.48,
+			Cooldown = 0.3,
 			Range = 16,
-			Damage = 18,
+			Damage = 12,
 			Price = 1500,
 		},
 		[3] = {
-			Cooldown = 0.48,
+			Cooldown = 0.3,
 			Range = 16,
-			Damage = 35,
+			Damage = 24,
 			Price = 3500,
 		},
 		[4] = {
-			Cooldown = 0.358,
+			Cooldown = 0.3,
 			Range = 18,
-			Damage = 45,
+			Damage = 40,
 			Price = 6500,
 		},
 		[5] = {
-			Cooldown = 0.22,
+			Cooldown = 0.18,
 			Range = 22,
-			Damage = 50,
+			Damage = 42,
 			Price = 10000,
 		},
 	},
