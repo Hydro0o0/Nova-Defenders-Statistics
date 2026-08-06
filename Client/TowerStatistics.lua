@@ -54,7 +54,7 @@ local module = {
 			Name = "Pulse",
 		},
 		[2] = {
-			LevelName = "THIS IS TESTING BRANCH DATA!!",
+			LevelName = "Gloves ! !",
 			Cooldown = 0.8,
 			Range = 15,
 			Damage = 3,
