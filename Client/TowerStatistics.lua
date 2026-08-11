@@ -645,7 +645,7 @@ local module = {
 			["Bullet Piercing Technology"] = {
 				Value = 2,
 				Colour = Color3.new(1, 0, 0),
-				Format = "Can hit %d enemies per shot.",
+				Format = "Pierce: Can hit %d enemies per shot.",
 			},
 		},
 		[5] = {
