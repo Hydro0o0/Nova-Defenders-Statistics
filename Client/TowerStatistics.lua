@@ -54,7 +54,7 @@ local module = {
 			Name = "Pulse",
 		},
 		[2] = {
-			LevelName = "THIS IS TESTING BRANCH DATA!!",
+			LevelName = "Weapon Handling",
 			Cooldown = 0.8,
 			Range = 15,
 			Damage = 3,
@@ -70,7 +70,7 @@ local module = {
 			},
 		},
 		[3] = {
-			LevelName = "Communication",
+			LevelName = "Better Equipment",
 			Cooldown = 0.75,
 			Range = 19,
 			Damage = 6,
@@ -95,7 +95,7 @@ local module = {
 			},
 		},
 		[4] = {
-			LevelName = "Biker Clothes and A New Buddy",
+			LevelName = "Dual Wield",
 			Cooldown = 0.375,
 			Range = 19,
 			Damage = 6,
@@ -127,7 +127,7 @@ local module = {
 			},
 		},
 		[5] = {
-			LevelName = "Night-Vision Googles and new Kit",
+			LevelName = "Assault Loadout",
 			Cooldown = 0.155,
 			Range = 21,
 			Damage = 6,
@@ -210,7 +210,7 @@ local module = {
 			Name = "Barrage",
 		},
 		[2] = {
-			LevelName = "Extra Training",
+			LevelName = "Shotgun Handling",
 			Cooldown = 1.6,
 			Range = 5,
 			Damage = 4,
@@ -235,7 +235,7 @@ local module = {
 			Invisible = { 1 },
 		},
 		[3] = {
-			LevelName = "New Firepower",
+			LevelName = "Ammo Strap",
 			Cooldown = 1.5,
 			Range = 5.5,
 			Damage = 6,
@@ -262,7 +262,7 @@ local module = {
 			},
 		},
 		[4] = {
-			LevelName = "New Attachments",
+			LevelName = "Shotgun Training",
 			Cooldown = 1.4,
 			Range = 6,
 			Damage = 10,
@@ -290,7 +290,7 @@ local module = {
 			Invisible = { 3 },
 		},
 		[5] = {
-			LevelName = "Full Training",
+			LevelName = "Gang Connections",
 			Cooldown = 0.9,
 			Range = 6.5,
 			Damage = 22,
@@ -322,7 +322,7 @@ local module = {
 			},
 		},
 		[6] = {
-			LevelName = "Heavy Equipment",
+			LevelName = "SWAT Equipment",
 			Cooldown = 0.8,
 			Range = 7,
 			Damage = 25,
@@ -390,7 +390,7 @@ local module = {
 			},
 		},
 		[2] = {
-			LevelName = "Better Grip",
+			LevelName = "Marksman Training",
 			Cooldown = 3.6,
 			Range = 28,
 			Damage = 28,
@@ -405,7 +405,7 @@ local module = {
 			},
 		},
 		[3] = {
-			LevelName = "Scope Attachment",
+			LevelName = "Radio Support",
 			Cooldown = 3.45,
 			Range = 33,
 			Damage = 45,
@@ -420,7 +420,7 @@ local module = {
 			},
 		},
 		[4] = {
-			LevelName = "New Weapon kit",
+			LevelName = "Increased Firepower",
 			Cooldown = 3.2,
 			Range = 39,
 			Damage = 90,
@@ -436,7 +436,7 @@ local module = {
 			},
 		},
 		[5] = {
-			LevelName = "New kit",
+			LevelName = "Night Hunter",
 			Cooldown = 2.8,
 			Range = 41,
 			Damage = 195,
@@ -611,7 +611,7 @@ local module = {
 			Name = "Exterminator",
 		},
 		[2] = {
-			LevelName = "Googles!",
+			LevelName = "Extermination Gear",
 			Cooldown = 0.2,
 			Range = 18,
 			Damage = 6,
@@ -625,7 +625,7 @@ local module = {
 			},
 		},
 		[3] = {
-			LevelName = "New small kit",
+			LevelName = "Recoil Control",
 			Cooldown = 0.2,
 			Range = 19,
 			Damage = 12,
@@ -634,7 +634,7 @@ local module = {
 			Invisible = { 2 },
 		},
 		[4] = {
-			LevelName = "Now that's a whole new kit!",
+			LevelName = "Piercing Ammo",
 			Cooldown = 0.155,
 			Range = 19,
 			Damage = 20,
@@ -649,7 +649,7 @@ local module = {
 			},
 		},
 		[5] = {
-			LevelName = "New Military Advancement",
+			LevelName = "Eradicator",
 			Cooldown = 0.1,
 			Range = 22,
 			Damage = 30,
@@ -693,7 +693,7 @@ local module = {
 			Name = "Blitzkrieg",
 		},
 		[2] = {
-			LevelName = "New Gears",
+			LevelName = "Grenade Handling",
 			Cooldown = 2.5,
 			Range = 8,
 			Damage = 8,
@@ -715,7 +715,7 @@ local module = {
 			},
 		},
 		[3] = {
-			LevelName = "Funni green ball go boom boom",
+			LevelName = "Well Equipped",
 			Cooldown = 2.3,
 			Range = 11,
 			Damage = 18,
@@ -737,7 +737,7 @@ local module = {
 			},
 		},
 		[4] = {
-			LevelName = "New Power Set",
+			LevelName = "Protective Gear",
 			Cooldown = 2.3,
 			Range = 15,
 			Damage = 46,
@@ -761,7 +761,7 @@ local module = {
 			},
 		},
 		[5] = {
-			LevelName = "Oh this can shoot pretty far",
+			LevelName = "'Nade Rain",
 			Cooldown = 0.55,
 			Range = 18,
 			Damage = 28,
