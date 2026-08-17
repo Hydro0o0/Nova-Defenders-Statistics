@@ -58,7 +58,20 @@ local module = {
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
-					}
+					},
+					["Pulse Duration"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.392156, 1, 0.839215),
+						TrackValue = {
+							ValueName = "ActiveBullet",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
 				},
 				[2] = {
 					["Pulse Bar"] = {
@@ -73,7 +86,20 @@ local module = {
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
-					}
+					},
+					["Pulse Duration"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.392156, 1, 0.839215),
+						TrackValue = {
+							ValueName = "ActiveBullet",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
 				},
 				[3] = {
 					["Pulse Bar"] = {
@@ -88,7 +114,20 @@ local module = {
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
-					}
+					},
+					["Pulse Duration"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.392156, 1, 0.839215),
+						TrackValue = {
+							ValueName = "ActiveBullet",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
 				},
 				[4] = {
 					["Pulse Bar"] = {
@@ -103,7 +142,20 @@ local module = {
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
-					}
+					},
+					["Pulse Duration"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.392156, 1, 0.839215),
+						TrackValue = {
+							ValueName = "ActiveBullet",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
 				},
 				[5] = {
 					["Pulse Bar"] = {
@@ -118,7 +170,20 @@ local module = {
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
-					}
+					},
+					["Pulse Duration"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.392156, 1, 0.839215),
+						TrackValue = {
+							ValueName = "ActiveBullet",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
 				},
 			},
 			Effect = "Bullet",
