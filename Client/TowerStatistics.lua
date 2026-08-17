@@ -54,7 +54,7 @@ local module = {
 							Directory = "ExtraInfo.Pulse",
 						},
 						MasterValue = {
-							ValueName = "Shots",
+							ValueName = "Amount",
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
@@ -69,7 +69,7 @@ local module = {
 							Directory = "ExtraInfo.Pulse",
 						},
 						MasterValue = {
-							ValueName = "Shots",
+							ValueName = "Amount",
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
@@ -84,7 +84,7 @@ local module = {
 							Directory = "ExtraInfo.Pulse",
 						},
 						MasterValue = {
-							ValueName = "Shots",
+							ValueName = "Amount",
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
@@ -99,7 +99,7 @@ local module = {
 							Directory = "ExtraInfo.Pulse",
 						},
 						MasterValue = {
-							ValueName = "Shots",
+							ValueName = "Amount",
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
@@ -114,7 +114,7 @@ local module = {
 							Directory = "ExtraInfo.Pulse",
 						},
 						MasterValue = {
-							ValueName = "Shots",
+							ValueName = "Amount",
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
