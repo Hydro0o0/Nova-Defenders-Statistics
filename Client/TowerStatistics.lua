@@ -48,12 +48,13 @@ local module = {
 				[1] = {
 					["Pulse Bar"] = {
 						Type = "Progress Bar",
+						Colour = Color3.new(0.317647, 0.945098, 1),
 						TrackValue = {
 							ValueName = "Shots",
 							Directory = "ExtraInfo.Pulse",
 						},
 						MasterValue = {
-							ValueName = "Amount",
+							ValueName = "Shots",
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
@@ -62,12 +63,13 @@ local module = {
 				[2] = {
 					["Pulse Bar"] = {
 						Type = "Progress Bar",
+						Colour = Color3.new(0.317647, 0.945098, 1),
 						TrackValue = {
 							ValueName = "Shots",
 							Directory = "ExtraInfo.Pulse",
 						},
 						MasterValue = {
-							ValueName = "Amount",
+							ValueName = "Shots",
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
@@ -76,12 +78,13 @@ local module = {
 				[3] = {
 					["Pulse Bar"] = {
 						Type = "Progress Bar",
+						Colour = Color3.new(0.317647, 0.945098, 1),
 						TrackValue = {
 							ValueName = "Shots",
 							Directory = "ExtraInfo.Pulse",
 						},
 						MasterValue = {
-							ValueName = "Amount",
+							ValueName = "Shots",
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
@@ -90,12 +93,13 @@ local module = {
 				[4] = {
 					["Pulse Bar"] = {
 						Type = "Progress Bar",
+						Colour = Color3.new(0.317647, 0.945098, 1),
 						TrackValue = {
 							ValueName = "Shots",
 							Directory = "ExtraInfo.Pulse",
 						},
 						MasterValue = {
-							ValueName = "Amount",
+							ValueName = "Shots",
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
@@ -104,12 +108,13 @@ local module = {
 				[5] = {
 					["Pulse Bar"] = {
 						Type = "Progress Bar",
+						Colour = Color3.new(0.317647, 0.945098, 1),
 						TrackValue = {
 							ValueName = "Shots",
 							Directory = "ExtraInfo.Pulse",
 						},
 						MasterValue = {
-							ValueName = "Amount",
+							ValueName = "Shots",
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
