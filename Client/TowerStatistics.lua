@@ -72,6 +72,20 @@ local module = {
 							LevelBased = true, 
 						},
 					},
+					["Weapon Cooldown"] = {
+						Type = "Cooldown Bar",
+						Colour = Color3.new(0.494117, 0.980392, 0.419607),
+						Hide = false,
+						TrackValue = {
+							ValueName = "Active",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Cooldown",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
 				},
 				[2] = {
 					["Pulse Bar"] = {
@@ -96,6 +110,20 @@ local module = {
 						},
 						MasterValue = {
 							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+					["Weapon Cooldown"] = {
+						Type = "Cooldown Bar",
+						Colour = Color3.new(0.494117, 0.980392, 0.419607),
+						Hide = false,
+						TrackValue = {
+							ValueName = "Active",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Cooldown",
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
@@ -128,6 +156,20 @@ local module = {
 							LevelBased = true, 
 						},
 					},
+					["Weapon Cooldown"] = {
+						Type = "Cooldown Bar",
+						Colour = Color3.new(0.494117, 0.980392, 0.419607),
+						Hide = false,
+						TrackValue = {
+							ValueName = "Active",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Cooldown",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
 				},
 				[4] = {
 					["Pulse Bar"] = {
@@ -156,6 +198,20 @@ local module = {
 							LevelBased = true, 
 						},
 					},
+					["Weapon Cooldown"] = {
+						Type = "Cooldown Bar",
+						Colour = Color3.new(0.494117, 0.980392, 0.419607),
+						Hide = false,
+						TrackValue = {
+							ValueName = "Active",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Cooldown",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
 				},
 				[5] = {
 					["Pulse Bar"] = {
@@ -180,6 +236,20 @@ local module = {
 						},
 						MasterValue = {
 							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+					["Weapon Cooldown"] = {
+						Type = "Cooldown Bar",
+						Colour = Color3.new(0.494117, 0.980392, 0.419607),
+						Hide = false,
+						TrackValue = {
+							ValueName = "Active",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Cooldown",
 							Directory = "ExtraInfo.Pulse", 
 							LevelBased = true, 
 						},
