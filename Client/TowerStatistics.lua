@@ -44,6 +44,78 @@ local module = {
 					Cooldown = 6,
 				},
 			},
+			KeepTrack = {
+				[1] = {
+					["Pulse Bar"] = {
+						Type = "Progress Bar",
+						TrackValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Amount",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					}
+				},
+				[2] = {
+					["Pulse Bar"] = {
+						Type = "Progress Bar",
+						TrackValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Amount",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					}
+				},
+				[3] = {
+					["Pulse Bar"] = {
+						Type = "Progress Bar",
+						TrackValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Amount",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					}
+				},
+				[4] = {
+					["Pulse Bar"] = {
+						Type = "Progress Bar",
+						TrackValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Amount",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					}
+				},
+				[5] = {
+					["Pulse Bar"] = {
+						Type = "Progress Bar",
+						TrackValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Amount",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					}
+				},
+			},
 			Effect = "Bullet",
 		},
 		[1] = {
