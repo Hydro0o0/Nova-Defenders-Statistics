@@ -668,6 +668,7 @@ local module = {
 	Moonfall = {
 		ExtraInfo = {
 			MaxLevel = 5,
+			MaxColour = Color3.new(0.227450, 0.560784, 1),
 			Class = {
 				[1] = "Single",
 				[2] = "Single",
