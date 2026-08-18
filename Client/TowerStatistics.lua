@@ -875,6 +875,7 @@ local module = {
 
 	Blitzkrieg = {
 		ExtraInfo = {
+			MaxColour = Color3.new(1, 0.643137, 0.070588),
 			MaxLevel = 5,
 			Hidden = {  4, 5 },
 			Class = {
@@ -998,6 +999,7 @@ local module = {
 
 	Skylight = {
 		ExtraInfo = {
+			MaxColour = Color3.new(0.745098, 0.388235, 1),
 			MaxLevel = 5,
 			HighGround = true,
 			SkylightBeam = {
