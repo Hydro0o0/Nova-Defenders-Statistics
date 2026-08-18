@@ -999,7 +999,7 @@ local module = {
 
 	Skylight = {
 		ExtraInfo = {
-			MaxColour = Color3.new(0.745098, 0.388235, 1),
+			MaxColour = Color3.fromRGB(140, 125, 255),
 			MaxLevel = 5,
 			HighGround = true,
 			SkylightBeam = {
@@ -1204,7 +1204,7 @@ local module = {
 
 	Dealer = {
 		ExtraInfo = {
-			MaxColour = Color3.new(0, 0, 0),
+			MaxColour = Color3.new(0.635294, 0.635294, 0.635294),
 			MaxLevel = 5,
 			MaxPlacement = 6, 
 			Hidden = {2,3,4,5},
