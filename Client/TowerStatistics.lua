@@ -1204,6 +1204,7 @@ local module = {
 
 	Dealer = {
 		ExtraInfo = {
+			MaxColour = Color3.new(0, 0, 0),
 			MaxLevel = 5,
 			MaxPlacement = 6, 
 			Hidden = {2,3,4,5},
