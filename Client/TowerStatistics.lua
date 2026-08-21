@@ -44,6 +44,218 @@ local module = {
 					Cooldown = 6,
 				},
 			},
+			KeepTrack = {
+				[1] = {
+					["Pulse Bar"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.317647, 0.945098, 1),
+						TrackValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Amount",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+					["Pulse Duration"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.392156, 1, 0.839215),
+						TrackValue = {
+							ValueName = "ActiveBullet",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+					["Weapon Cooldown"] = {
+						Type = "Cooldown Bar",
+						Colour = Color3.new(0.494117, 0.980392, 0.419607),
+						Hide = true,
+						TrackValue = {
+							ValueName = "Active",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Cooldown",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+				},
+				[2] = {
+					["Pulse Bar"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.317647, 0.945098, 1),
+						TrackValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Amount",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+					["Pulse Duration"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.392156, 1, 0.839215),
+						TrackValue = {
+							ValueName = "ActiveBullet",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+					["Weapon Cooldown"] = {
+						Type = "Cooldown Bar",
+						Colour = Color3.new(0.494117, 0.980392, 0.419607),
+						Hide = true,
+						TrackValue = {
+							ValueName = "Active",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Cooldown",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+				},
+				[3] = {
+					["Pulse Bar"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.317647, 0.945098, 1),
+						TrackValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Amount",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+					["Pulse Duration"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.392156, 1, 0.839215),
+						TrackValue = {
+							ValueName = "ActiveBullet",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+					["Weapon Cooldown"] = {
+						Type = "Cooldown Bar",
+						Colour = Color3.new(0.494117, 0.980392, 0.419607),
+						Hide = true,
+						TrackValue = {
+							ValueName = "Active",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Cooldown",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+				},
+				[4] = {
+					["Pulse Bar"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.317647, 0.945098, 1),
+						TrackValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Amount",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+					["Pulse Duration"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.392156, 1, 0.839215),
+						TrackValue = {
+							ValueName = "ActiveBullet",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+					["Weapon Cooldown"] = {
+						Type = "Cooldown Bar",
+						Colour = Color3.new(0.494117, 0.980392, 0.419607),
+						Hide = true,
+						TrackValue = {
+							ValueName = "Active",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Cooldown",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+				},
+				[5] = {
+					["Pulse Bar"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.317647, 0.945098, 1),
+						TrackValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Amount",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+					["Pulse Duration"] = {
+						Type = "Progress Bar",
+						Colour = Color3.new(0.392156, 1, 0.839215),
+						TrackValue = {
+							ValueName = "ActiveBullet",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Shots",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+					["Weapon Cooldown"] = {
+						Type = "Cooldown Bar",
+						Colour = Color3.new(0.494117, 0.980392, 0.419607),
+						Hide = true,
+						TrackValue = {
+							ValueName = "Active",
+							Directory = "ExtraInfo.Pulse",
+						},
+						MasterValue = {
+							ValueName = "Cooldown",
+							Directory = "ExtraInfo.Pulse", 
+							LevelBased = true, 
+						},
+					},
+				},
+			},
 			Effect = "Bullet",
 		},
 		[1] = {
@@ -54,7 +266,7 @@ local module = {
 			Name = "Pulse",
 		},
 		[2] = {
-			LevelName = "Gloves ! !",
+			LevelName = "Weapon Handling",
 			Cooldown = 0.8,
 			Range = 15,
 			Damage = 3,
@@ -70,7 +282,7 @@ local module = {
 			},
 		},
 		[3] = {
-			LevelName = "Communication",
+			LevelName = "Better Equipment",
 			Cooldown = 0.75,
 			Range = 19,
 			Damage = 6,
@@ -95,7 +307,7 @@ local module = {
 			},
 		},
 		[4] = {
-			LevelName = "Biker Clothes and A New Buddy",
+			LevelName = "Dual Wield",
 			Cooldown = 0.375,
 			Range = 19,
 			Damage = 6,
@@ -127,7 +339,7 @@ local module = {
 			},
 		},
 		[5] = {
-			LevelName = "Night-Vision Googles and new Kit",
+			LevelName = "Assault Loadout",
 			Cooldown = 0.155,
 			Range = 21,
 			Damage = 6,
@@ -210,7 +422,7 @@ local module = {
 			Name = "Barrage",
 		},
 		[2] = {
-			LevelName = "Extra Training",
+			LevelName = "Shotgun Handling",
 			Cooldown = 1.6,
 			Range = 5,
 			Damage = 4,
@@ -235,7 +447,7 @@ local module = {
 			Invisible = { 1 },
 		},
 		[3] = {
-			LevelName = "New Firepower",
+			LevelName = "Ammo Strap",
 			Cooldown = 1.5,
 			Range = 5.5,
 			Damage = 6,
@@ -262,7 +474,7 @@ local module = {
 			},
 		},
 		[4] = {
-			LevelName = "New Attachments",
+			LevelName = "Shotgun Training",
 			Cooldown = 1.4,
 			Range = 6,
 			Damage = 10,
@@ -290,7 +502,7 @@ local module = {
 			Invisible = { 3 },
 		},
 		[5] = {
-			LevelName = "Full Training",
+			LevelName = "Gang Connections",
 			Cooldown = 0.9,
 			Range = 6.5,
 			Damage = 22,
@@ -322,7 +534,7 @@ local module = {
 			},
 		},
 		[6] = {
-			LevelName = "Heavy Equipment",
+			LevelName = "SWAT Equipment",
 			Cooldown = 0.8,
 			Range = 7,
 			Damage = 25,
@@ -390,7 +602,7 @@ local module = {
 			},
 		},
 		[2] = {
-			LevelName = "Better Grip",
+			LevelName = "Marksman Training",
 			Cooldown = 3.6,
 			Range = 28,
 			Damage = 28,
@@ -405,7 +617,7 @@ local module = {
 			},
 		},
 		[3] = {
-			LevelName = "Scope Attachment",
+			LevelName = "Radio Support",
 			Cooldown = 3.45,
 			Range = 33,
 			Damage = 45,
@@ -420,7 +632,7 @@ local module = {
 			},
 		},
 		[4] = {
-			LevelName = "New Weapon kit",
+			LevelName = "Increased Firepower",
 			Cooldown = 3.2,
 			Range = 39,
 			Damage = 90,
@@ -436,7 +648,7 @@ local module = {
 			},
 		},
 		[5] = {
-			LevelName = "New kit",
+			LevelName = "Night Hunter",
 			Cooldown = 2.8,
 			Range = 41,
 			Damage = 195,
@@ -456,6 +668,7 @@ local module = {
 	Moonfall = {
 		ExtraInfo = {
 			MaxLevel = 5,
+			MaxColour = Color3.new(0.227450, 0.560784, 1),
 			Class = {
 				[1] = "Single",
 				[2] = "Single",
@@ -592,7 +805,7 @@ local module = {
 				[4] = { "Start1" },
 				[5] = { "Start2" },
 			},
-			Hidden = { 3, 4, 5 },
+			Hidden = { 2, 3, 4, 5 },
 			Class = {
 				[1] = "Single",
 				[2] = "Single",
@@ -604,18 +817,18 @@ local module = {
 		},
 
 		[1] = {
-			Cooldown = 0.48,
-			Range = 15,
-			Damage = 12,
-			Price = 3500,
+			Cooldown = 0.2,
+			Range = 16,
+			Damage = 4,
+			Price = 2500,
 			Name = "Exterminator",
 		},
 		[2] = {
-			LevelName = "Googles!",
-			Cooldown = 0.48,
-			Range = 16,
-			Damage = 18,
-			Price = 1500,
+			LevelName = "Extermination Gear",
+			Cooldown = 0.2,
+			Range = 18,
+			Damage = 6,
+			Price = 1250,
 			Name = "Exterminator",
 			Invisible = { 1 },
 			Exclude = {
@@ -625,20 +838,20 @@ local module = {
 			},
 		},
 		[3] = {
-			LevelName = "New small kit",
-			Cooldown = 0.48,
-			Range = 16,
-			Damage = 35,
-			Price = 3500,
+			LevelName = "Recoil Control",
+			Cooldown = 0.2,
+			Range = 19,
+			Damage = 12,
+			Price = 3000,
 			Name = "Exterminator",
 			Invisible = { 2 },
 		},
 		[4] = {
-			LevelName = "Now that's a whole new kit!",
-			Cooldown = 0.358,
-			Range = 18,
-			Damage = 45,
-			Price = 6500,
+			LevelName = "Piercing Ammo",
+			Cooldown = 0.155,
+			Range = 19,
+			Damage = 20,
+			Price = 8000,
 			Name = "Exterminator",
 			Invisible = { 3 },
 			Animation = 3,
@@ -649,11 +862,11 @@ local module = {
 			},
 		},
 		[5] = {
-			LevelName = "New Military Advancement",
-			Cooldown = 0.22,
+			LevelName = "Eradicator",
+			Cooldown = 0.1,
 			Range = 22,
-			Damage = 50,
-			Price = 10000,
+			Damage = 30,
+			Price = 16750,
 			Name = "Exterminator",
 			Invisible = { 4 },
 			Animation = 4,
@@ -662,6 +875,7 @@ local module = {
 
 	Blitzkrieg = {
 		ExtraInfo = {
+			MaxColour = Color3.new(1, 0.643137, 0.070588),
 			MaxLevel = 5,
 			Hidden = {  4, 5 },
 			Class = {
@@ -693,7 +907,7 @@ local module = {
 			Name = "Blitzkrieg",
 		},
 		[2] = {
-			LevelName = "New Gears",
+			LevelName = "Grenade Handling",
 			Cooldown = 2.5,
 			Range = 8,
 			Damage = 8,
@@ -715,7 +929,7 @@ local module = {
 			},
 		},
 		[3] = {
-			LevelName = "Funni green ball go boom boom",
+			LevelName = "Well Equipped",
 			Cooldown = 2.3,
 			Range = 11,
 			Damage = 18,
@@ -737,7 +951,7 @@ local module = {
 			},
 		},
 		[4] = {
-			LevelName = "New Power Set",
+			LevelName = "Protective Gear",
 			Cooldown = 2.3,
 			Range = 15,
 			Damage = 46,
@@ -761,7 +975,7 @@ local module = {
 			},
 		},
 		[5] = {
-			LevelName = "Oh this can shoot pretty far",
+			LevelName = "'Nade Rain",
 			Cooldown = 0.55,
 			Range = 18,
 			Damage = 28,
@@ -785,6 +999,7 @@ local module = {
 
 	Skylight = {
 		ExtraInfo = {
+			MaxColour = Color3.fromRGB(140, 125, 255),
 			MaxLevel = 5,
 			HighGround = true,
 			SkylightBeam = {
@@ -917,78 +1132,10 @@ local module = {
 			},
 		},
 	},
-
-	Anomaly = {
-		ExtraInfo = {
-			MaxLevel = 5,
-			Class = {
-				[1] = "Single",
-				[2] = "Single",
-				[3] = "Single",
-				[4] = "Single",
-				[5] = "Single",
-			},
-			Bullet = {
-				[1] = {"Start", "Start2"},
-				[2] = {"Start", "Start2"},
-				[3] = {"Start", "Start2"},
-				[4] = {"Start", "Start2"},
-				[5] = {"Start", "Start2"},
-			},
-			Effect = "Bullet",
-		},
-		[1] = {
-			Cooldown = 0.25,
-			Range = 12,
-			Damage = 1,
-			Price = 500,
-			Name = "Anomaly",
-			OrderedAnimations = 2,
-		},
-		[2] = {
-			LevelName = "(?)",
-			Cooldown = 0.18,
-			Range = 15,
-			Damage = 2,
-			Price = 450,
-			Invisible = {},
-			Name = "Anomaly",
-			OrderedAnimations = 2,
-		},
-		[3] = {
-			LevelName = "(?)",
-			Cooldown = 0.13,
-			Range = 18,
-			Damage = 8,
-			Price = 1855,
-			Invisible = {},
-			Name = "Anomaly",
-			OrderedAnimations = 2,
-		},
-		[4] = {
-			LevelName = "(?)",
-			Cooldown = 0.1,
-			Range = 20,
-			Damage = 12,
-			Price = 2750,
-			Invisible = {},
-			Name = "Anomaly",
-			OrderedAnimations = 2,
-		},
-		[5] = {
-			LevelName = "(?)",
-			Cooldown = 0.05,
-			Range = 25,
-			Damage = 20,
-			Price = 5000,
-			Invisible = {},
-			Name = "Anomaly",
-			OrderedAnimations = 2,
-		},
-	},
-
+	
 	Dealer = {
 		ExtraInfo = {
+			MaxColour = Color3.new(0.635294, 0.635294, 0.635294),
 			MaxLevel = 5,
 			MaxPlacement = 6, 
 			Hidden = {2,3,4,5},
