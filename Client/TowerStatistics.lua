@@ -1132,76 +1132,7 @@ local module = {
 			},
 		},
 	},
-
-	Anomaly = {
-		ExtraInfo = {
-			MaxLevel = 5,
-			Class = {
-				[1] = "Single",
-				[2] = "Single",
-				[3] = "Single",
-				[4] = "Single",
-				[5] = "Single",
-			},
-			Bullet = {
-				[1] = {"Start", "Start2"},
-				[2] = {"Start", "Start2"},
-				[3] = {"Start", "Start2"},
-				[4] = {"Start", "Start2"},
-				[5] = {"Start", "Start2"},
-			},
-			Effect = "Bullet",
-		},
-		[1] = {
-			Cooldown = 0.25,
-			Range = 12,
-			Damage = 1,
-			Price = 500,
-			Name = "Anomaly",
-			OrderedAnimations = 2,
-		},
-		[2] = {
-			LevelName = "(?)",
-			Cooldown = 0.18,
-			Range = 15,
-			Damage = 2,
-			Price = 450,
-			Invisible = {},
-			Name = "Anomaly",
-			OrderedAnimations = 2,
-		},
-		[3] = {
-			LevelName = "(?)",
-			Cooldown = 0.13,
-			Range = 18,
-			Damage = 8,
-			Price = 1855,
-			Invisible = {},
-			Name = "Anomaly",
-			OrderedAnimations = 2,
-		},
-		[4] = {
-			LevelName = "(?)",
-			Cooldown = 0.1,
-			Range = 20,
-			Damage = 12,
-			Price = 2750,
-			Invisible = {},
-			Name = "Anomaly",
-			OrderedAnimations = 2,
-		},
-		[5] = {
-			LevelName = "(?)",
-			Cooldown = 0.05,
-			Range = 25,
-			Damage = 20,
-			Price = 5000,
-			Invisible = {},
-			Name = "Anomaly",
-			OrderedAnimations = 2,
-		},
-	},
-
+	
 	Dealer = {
 		ExtraInfo = {
 			MaxColour = Color3.new(0.635294, 0.635294, 0.635294),
